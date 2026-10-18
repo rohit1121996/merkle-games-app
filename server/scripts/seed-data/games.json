@@ -1,0 +1,5204 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Rise of World Resurrection",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 11,
+      "platform": "PC",
+      "releaseDate": "2017-09-25",
+      "developerId": 70,
+      "publisherId": 15
+    },
+    {
+      "id": 2,
+      "title": "Chronicles of Castle",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 1,
+      "platform": "VR",
+      "releaseDate": "2016-11-25",
+      "developerId": 90,
+      "publisherId": 11
+    },
+    {
+      "id": 3,
+      "title": "Tales of Realm",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 5,
+      "platform": "Mobile",
+      "releaseDate": "2021-08-24",
+      "developerId": 33,
+      "publisherId": 18
+    },
+    {
+      "id": 4,
+      "title": "Mystic Empire",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 13,
+      "platform": "Xbox Series X",
+      "releaseDate": "2020-01-23",
+      "developerId": 67,
+      "publisherId": 8
+    },
+    {
+      "id": 5,
+      "title": "Tales of Hunters Unlimited",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 6,
+      "platform": "Multi-platform",
+      "releaseDate": "2013-07-17",
+      "developerId": 82,
+      "publisherId": 10
+    },
+    {
+      "id": 6,
+      "title": "Rise of Quest",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 2,
+      "platform": "PlayStation 4",
+      "releaseDate": "2014-12-24",
+      "developerId": 54,
+      "publisherId": 8
+    },
+    {
+      "id": 7,
+      "title": "Dark Galaxy",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 11,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2018-11-05",
+      "developerId": 60,
+      "publisherId": 15
+    },
+    {
+      "id": 8,
+      "title": "Titans",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 8,
+      "platform": "PC/Steam",
+      "releaseDate": "2017-06-22",
+      "developerId": 93,
+      "publisherId": 2
+    },
+    {
+      "id": 9,
+      "title": "Neo Castle Zero",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 11,
+      "platform": "Mobile",
+      "releaseDate": "2022-03-22",
+      "developerId": 28,
+      "publisherId": 4
+    },
+    {
+      "id": 10,
+      "title": "Journey",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 2,
+      "platform": "VR",
+      "releaseDate": "2018-12-17",
+      "developerId": 98,
+      "publisherId": 18
+    },
+    {
+      "id": 11,
+      "title": "Mystic Odyssey",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 6,
+      "platform": "Xbox Series X",
+      "releaseDate": "2011-06-27",
+      "developerId": 77,
+      "publisherId": 2
+    },
+    {
+      "id": 12,
+      "title": "Cyber City Revolution",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 5,
+      "platform": "Xbox Series X",
+      "releaseDate": "2022-09-30",
+      "developerId": 43,
+      "publisherId": 7
+    },
+    {
+      "id": 13,
+      "title": "Shadow Kingdom",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 9,
+      "platform": "Multi-platform",
+      "releaseDate": "2014-01-17",
+      "developerId": 92,
+      "publisherId": 13
+    },
+    {
+      "id": 14,
+      "title": "Tales of Quest",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 8,
+      "platform": "VR",
+      "releaseDate": "2015-09-05",
+      "developerId": 81,
+      "publisherId": 12
+    },
+    {
+      "id": 15,
+      "title": "Guardians Zero",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 2,
+      "platform": "PlayStation 4",
+      "releaseDate": "2011-08-16",
+      "developerId": 78,
+      "publisherId": 12
+    },
+    {
+      "id": 16,
+      "title": "Eternal Knight",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 2,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-12-12",
+      "developerId": 77,
+      "publisherId": 11
+    },
+    {
+      "id": 17,
+      "title": "Eternal Heroes 4",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 4,
+      "platform": "PlayStation 4",
+      "releaseDate": "2022-09-05",
+      "developerId": 71,
+      "publisherId": 5
+    },
+    {
+      "id": 18,
+      "title": "Quantum World",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 2,
+      "platform": "Multi-platform",
+      "releaseDate": "2020-10-18",
+      "developerId": 55,
+      "publisherId": 5
+    },
+    {
+      "id": 19,
+      "title": "Escape from Defenders",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 9,
+      "platform": "Mobile",
+      "releaseDate": "2021-03-16",
+      "developerId": 80,
+      "publisherId": 13
+    },
+    {
+      "id": 20,
+      "title": "Cyber Journey",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 4,
+      "platform": "PlayStation 5",
+      "releaseDate": "2011-05-12",
+      "developerId": 87,
+      "publisherId": 5
+    },
+    {
+      "id": 21,
+      "title": "Crystal Phoenix",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 5,
+      "platform": "PC/Steam",
+      "releaseDate": "2023-11-05",
+      "developerId": 87,
+      "publisherId": 2
+    },
+    {
+      "id": 22,
+      "title": "Cyber Universe",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 8,
+      "platform": "Xbox One",
+      "releaseDate": "2012-01-25",
+      "developerId": 77,
+      "publisherId": 13
+    },
+    {
+      "id": 23,
+      "title": "Champions Unlimited",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 6,
+      "platform": "PC",
+      "releaseDate": "2020-09-29",
+      "developerId": 71,
+      "publisherId": 17
+    },
+    {
+      "id": 24,
+      "title": "Dark Champions",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 1,
+      "platform": "Xbox Series X",
+      "releaseDate": "2021-10-29",
+      "developerId": 96,
+      "publisherId": 10
+    },
+    {
+      "id": 25,
+      "title": "Phoenix Reborn",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 9,
+      "platform": "PC",
+      "releaseDate": "2019-10-10",
+      "developerId": 75,
+      "publisherId": 2
+    },
+    {
+      "id": 26,
+      "title": "Azure Odyssey",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 14,
+      "platform": "Multi-platform",
+      "releaseDate": "2014-11-18",
+      "developerId": 64,
+      "publisherId": 15
+    },
+    {
+      "id": 27,
+      "title": "Golden Saga Online",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 5,
+      "platform": "VR",
+      "releaseDate": "2011-07-20",
+      "developerId": 28,
+      "publisherId": 1
+    },
+    {
+      "id": 28,
+      "title": "Ultimate Phoenix",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 7,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2024-10-05",
+      "developerId": 26,
+      "publisherId": 14
+    },
+    {
+      "id": 29,
+      "title": "Tales of Castle",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 2,
+      "platform": "PC",
+      "releaseDate": "2016-02-19",
+      "developerId": 88,
+      "publisherId": 4
+    },
+    {
+      "id": 30,
+      "title": "Realm Unlimited",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 2,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2014-08-04",
+      "developerId": 53,
+      "publisherId": 7
+    },
+    {
+      "id": 31,
+      "title": "Defenders Legacy",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 5,
+      "platform": "Mobile",
+      "releaseDate": "2012-11-03",
+      "developerId": 22,
+      "publisherId": 16
+    },
+    {
+      "id": 32,
+      "title": "Fall of World",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 15,
+      "platform": "Mobile",
+      "releaseDate": "2016-05-04",
+      "developerId": 74,
+      "publisherId": 13
+    },
+    {
+      "id": 33,
+      "title": "Legend of Adventure 3",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 15,
+      "platform": "VR",
+      "releaseDate": "2022-01-07",
+      "developerId": 81,
+      "publisherId": 3
+    },
+    {
+      "id": 34,
+      "title": "Mystic Quest",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 3,
+      "platform": "VR",
+      "releaseDate": "2017-05-27",
+      "developerId": 31,
+      "publisherId": 14
+    },
+    {
+      "id": 35,
+      "title": "Ultra War",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 1,
+      "platform": "Mobile",
+      "releaseDate": "2022-09-27",
+      "developerId": 100,
+      "publisherId": 8
+    },
+    {
+      "id": 36,
+      "title": "Dragon",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 6,
+      "platform": "PC",
+      "releaseDate": "2013-08-16",
+      "developerId": 85,
+      "publisherId": 5
+    },
+    {
+      "id": 37,
+      "title": "Dark Saga",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 11,
+      "platform": "VR",
+      "releaseDate": "2022-06-13",
+      "developerId": 82,
+      "publisherId": 9
+    },
+    {
+      "id": 38,
+      "title": "Ancient Arena",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 2,
+      "platform": "PC",
+      "releaseDate": "2016-11-08",
+      "developerId": 54,
+      "publisherId": 6
+    },
+    {
+      "id": 39,
+      "title": "Raiders",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 6,
+      "platform": "Multi-platform",
+      "releaseDate": "2013-12-05",
+      "developerId": 92,
+      "publisherId": 1
+    },
+    {
+      "id": 40,
+      "title": "Quest",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 2,
+      "platform": "PC",
+      "releaseDate": "2015-04-12",
+      "developerId": 96,
+      "publisherId": 11
+    },
+    {
+      "id": 41,
+      "title": "Conflict",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 4,
+      "platform": "VR",
+      "releaseDate": "2015-11-05",
+      "developerId": 75,
+      "publisherId": 1
+    },
+    {
+      "id": 42,
+      "title": "Epic Warriors",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 2,
+      "platform": "Mobile",
+      "releaseDate": "2021-03-01",
+      "developerId": 22,
+      "publisherId": 19
+    },
+    {
+      "id": 43,
+      "title": "Fall of Legends",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 1,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2023-12-19",
+      "developerId": 62,
+      "publisherId": 11
+    },
+    {
+      "id": 44,
+      "title": "Ancient Battle Forever",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 3,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2019-06-05",
+      "developerId": 83,
+      "publisherId": 20
+    },
+    {
+      "id": 45,
+      "title": "Neo Empire",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 10,
+      "platform": "PlayStation 5",
+      "releaseDate": "2014-07-21",
+      "developerId": 40,
+      "publisherId": 12
+    },
+    {
+      "id": 46,
+      "title": "Escape from Legends",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 10,
+      "platform": "Xbox Series X",
+      "releaseDate": "2020-11-23",
+      "developerId": 44,
+      "publisherId": 5
+    },
+    {
+      "id": 47,
+      "title": "Neo Saga",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 5,
+      "platform": "Mobile",
+      "releaseDate": "2018-03-29",
+      "developerId": 33,
+      "publisherId": 17
+    },
+    {
+      "id": 48,
+      "title": "Tales of Colosseum 4",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 13,
+      "platform": "PC/Steam",
+      "releaseDate": "2013-01-25",
+      "developerId": 66,
+      "publisherId": 16
+    },
+    {
+      "id": 49,
+      "title": "Tales of Conflict",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 8,
+      "platform": "PlayStation 4",
+      "releaseDate": "2021-09-11",
+      "developerId": 50,
+      "publisherId": 2
+    },
+    {
+      "id": 50,
+      "title": "Golden Warriors Unlimited",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 8,
+      "platform": "VR",
+      "releaseDate": "2011-04-28",
+      "developerId": 32,
+      "publisherId": 16
+    },
+    {
+      "id": 51,
+      "title": "Azure Universe",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 11,
+      "platform": "Mobile",
+      "releaseDate": "2023-10-14",
+      "developerId": 68,
+      "publisherId": 14
+    },
+    {
+      "id": 52,
+      "title": "Ultra Dungeon Prime",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 2,
+      "platform": "Mobile",
+      "releaseDate": "2020-03-02",
+      "developerId": 44,
+      "publisherId": 8
+    },
+    {
+      "id": 53,
+      "title": "Legend of Dragon Reborn",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 12,
+      "platform": "VR",
+      "releaseDate": "2018-10-24",
+      "developerId": 57,
+      "publisherId": 6
+    },
+    {
+      "id": 54,
+      "title": "Azure Warriors 2",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 7,
+      "platform": "PC",
+      "releaseDate": "2015-06-05",
+      "developerId": 29,
+      "publisherId": 15
+    },
+    {
+      "id": 55,
+      "title": "Golden Adventure",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 6,
+      "platform": "PlayStation 5",
+      "releaseDate": "2022-12-15",
+      "developerId": 69,
+      "publisherId": 12
+    },
+    {
+      "id": 56,
+      "title": "Ancient Legends",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 6,
+      "platform": "Xbox One",
+      "releaseDate": "2018-12-04",
+      "developerId": 60,
+      "publisherId": 14
+    },
+    {
+      "id": 57,
+      "title": "Ultimate Arena",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 10,
+      "platform": "PC",
+      "releaseDate": "2016-04-04",
+      "developerId": 71,
+      "publisherId": 15
+    },
+    {
+      "id": 58,
+      "title": "War",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 9,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2021-11-25",
+      "developerId": 71,
+      "publisherId": 8
+    },
+    {
+      "id": 59,
+      "title": "Journey 2",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 2,
+      "platform": "VR",
+      "releaseDate": "2021-01-24",
+      "developerId": 55,
+      "publisherId": 14
+    },
+    {
+      "id": 60,
+      "title": "Golden Conflict",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 5,
+      "platform": "Xbox Series X",
+      "releaseDate": "2024-04-02",
+      "developerId": 98,
+      "publisherId": 9
+    },
+    {
+      "id": 61,
+      "title": "Golden Universe Online",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 10,
+      "platform": "PC",
+      "releaseDate": "2022-07-29",
+      "developerId": 30,
+      "publisherId": 9
+    },
+    {
+      "id": 62,
+      "title": "Mega Heroes",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 14,
+      "platform": "PlayStation 4",
+      "releaseDate": "2011-04-01",
+      "developerId": 31,
+      "publisherId": 20
+    },
+    {
+      "id": 63,
+      "title": "Ultimate Empire Reborn",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 3,
+      "platform": "PC",
+      "releaseDate": "2011-03-14",
+      "developerId": 34,
+      "publisherId": 10
+    },
+    {
+      "id": 64,
+      "title": "Mystic Heroes",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 9,
+      "platform": "Xbox One",
+      "releaseDate": "2011-05-10",
+      "developerId": 40,
+      "publisherId": 19
+    },
+    {
+      "id": 65,
+      "title": "Warriors",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 11,
+      "platform": "PC",
+      "releaseDate": "2010-11-15",
+      "developerId": 83,
+      "publisherId": 19
+    },
+    {
+      "id": 66,
+      "title": "Cyber Kingdom",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 12,
+      "platform": "PC/Steam",
+      "releaseDate": "2024-08-31",
+      "developerId": 71,
+      "publisherId": 20
+    },
+    {
+      "id": 67,
+      "title": "Super Knight",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 9,
+      "platform": "Mobile",
+      "releaseDate": "2013-05-04",
+      "developerId": 75,
+      "publisherId": 2
+    },
+    {
+      "id": 68,
+      "title": "Eternal Arena Legacy",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 2,
+      "platform": "PlayStation 4",
+      "releaseDate": "2012-04-23",
+      "developerId": 91,
+      "publisherId": 3
+    },
+    {
+      "id": 69,
+      "title": "Crimson Adventure Revolution",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 3,
+      "platform": "Xbox One",
+      "releaseDate": "2016-09-04",
+      "developerId": 45,
+      "publisherId": 14
+    },
+    {
+      "id": 70,
+      "title": "Tales of Universe",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 7,
+      "platform": "Xbox Series X",
+      "releaseDate": "2022-08-31",
+      "developerId": 89,
+      "publisherId": 3
+    },
+    {
+      "id": 71,
+      "title": "Mystic Heroes 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 9,
+      "platform": "Xbox One",
+      "releaseDate": "2021-01-22",
+      "developerId": 43,
+      "publisherId": 13
+    },
+    {
+      "id": 72,
+      "title": "Crimson Phoenix",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 1,
+      "platform": "PC/Steam",
+      "releaseDate": "2021-03-06",
+      "developerId": 71,
+      "publisherId": 15
+    },
+    {
+      "id": 73,
+      "title": "Quest X",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 15,
+      "platform": "Xbox One",
+      "releaseDate": "2014-09-02",
+      "developerId": 95,
+      "publisherId": 20
+    },
+    {
+      "id": 74,
+      "title": "Azure Conflict",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 13,
+      "platform": "Xbox One",
+      "releaseDate": "2013-06-17",
+      "developerId": 27,
+      "publisherId": 13
+    },
+    {
+      "id": 75,
+      "title": "Empire",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 12,
+      "platform": "Mobile",
+      "releaseDate": "2015-06-26",
+      "developerId": 96,
+      "publisherId": 16
+    },
+    {
+      "id": 76,
+      "title": "Universe",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 14,
+      "platform": "PlayStation 5",
+      "releaseDate": "2010-04-28",
+      "developerId": 77,
+      "publisherId": 14
+    },
+    {
+      "id": 77,
+      "title": "Golden Heroes Revolution",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 8,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2016-09-10",
+      "developerId": 82,
+      "publisherId": 13
+    },
+    {
+      "id": 78,
+      "title": "Kingdom Returns",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 14,
+      "platform": "Xbox Series X",
+      "releaseDate": "2017-08-08",
+      "developerId": 30,
+      "publisherId": 10
+    },
+    {
+      "id": 79,
+      "title": "Quantum War",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 6,
+      "platform": "PC",
+      "releaseDate": "2010-08-17",
+      "developerId": 34,
+      "publisherId": 1
+    },
+    {
+      "id": 80,
+      "title": "Tales of Phoenix Returns",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 10,
+      "platform": "PlayStation 4",
+      "releaseDate": "2023-01-04",
+      "developerId": 59,
+      "publisherId": 16
+    },
+    {
+      "id": 81,
+      "title": "War",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 10,
+      "platform": "PC/Steam",
+      "releaseDate": "2010-09-28",
+      "developerId": 71,
+      "publisherId": 5
+    },
+    {
+      "id": 82,
+      "title": "Fortress HD",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 4,
+      "platform": "Xbox Series X",
+      "releaseDate": "2018-06-17",
+      "developerId": 38,
+      "publisherId": 4
+    },
+    {
+      "id": 83,
+      "title": "Guardians",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 4,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2011-06-04",
+      "developerId": 76,
+      "publisherId": 7
+    },
+    {
+      "id": 84,
+      "title": "Neo Legends Online",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 14,
+      "platform": "Xbox Series X",
+      "releaseDate": "2024-05-10",
+      "developerId": 81,
+      "publisherId": 2
+    },
+    {
+      "id": 85,
+      "title": "Galaxy",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 4,
+      "platform": "PC",
+      "releaseDate": "2010-12-17",
+      "developerId": 82,
+      "publisherId": 2
+    },
+    {
+      "id": 86,
+      "title": "Mystic Adventure",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 9,
+      "platform": "Multi-platform",
+      "releaseDate": "2017-06-02",
+      "developerId": 76,
+      "publisherId": 9
+    },
+    {
+      "id": 87,
+      "title": "Escape from Warriors Chronicles",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 11,
+      "platform": "Xbox One",
+      "releaseDate": "2022-05-11",
+      "developerId": 24,
+      "publisherId": 20
+    },
+    {
+      "id": 88,
+      "title": "Legend of Journey",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 10,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2012-07-16",
+      "developerId": 69,
+      "publisherId": 9
+    },
+    {
+      "id": 89,
+      "title": "Ancient Phoenix",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 12,
+      "platform": "PC",
+      "releaseDate": "2020-10-03",
+      "developerId": 25,
+      "publisherId": 1
+    },
+    {
+      "id": 90,
+      "title": "Super Conflict Plus",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 9,
+      "platform": "PlayStation 5",
+      "releaseDate": "2014-06-15",
+      "developerId": 48,
+      "publisherId": 19
+    },
+    {
+      "id": 91,
+      "title": "Galaxy 3",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 2,
+      "platform": "Xbox Series X",
+      "releaseDate": "2015-09-03",
+      "developerId": 86,
+      "publisherId": 10
+    },
+    {
+      "id": 92,
+      "title": "Escape from Fortress 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 4,
+      "platform": "PlayStation 5",
+      "releaseDate": "2021-08-07",
+      "developerId": 41,
+      "publisherId": 3
+    },
+    {
+      "id": 93,
+      "title": "Legends",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 9,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2013-04-17",
+      "developerId": 55,
+      "publisherId": 3
+    },
+    {
+      "id": 94,
+      "title": "Adventure Origins",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 15,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2011-08-31",
+      "developerId": 72,
+      "publisherId": 10
+    },
+    {
+      "id": 95,
+      "title": "Super Quest",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 15,
+      "platform": "Mobile",
+      "releaseDate": "2016-10-17",
+      "developerId": 25,
+      "publisherId": 15
+    },
+    {
+      "id": 96,
+      "title": "Hunters Origins",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 13,
+      "platform": "VR",
+      "releaseDate": "2013-07-17",
+      "developerId": 87,
+      "publisherId": 6
+    },
+    {
+      "id": 97,
+      "title": "Infinite Castle",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 12,
+      "platform": "PC/Steam",
+      "releaseDate": "2018-01-16",
+      "developerId": 89,
+      "publisherId": 18
+    },
+    {
+      "id": 98,
+      "title": "Golden War Reborn",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 5,
+      "platform": "PC/Steam",
+      "releaseDate": "2015-08-11",
+      "developerId": 94,
+      "publisherId": 19
+    },
+    {
+      "id": 99,
+      "title": "Silver Conflict",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 10,
+      "platform": "Xbox One",
+      "releaseDate": "2016-01-22",
+      "developerId": 38,
+      "publisherId": 11
+    },
+    {
+      "id": 100,
+      "title": "Eternal War",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 1,
+      "platform": "VR",
+      "releaseDate": "2023-02-10",
+      "developerId": 100,
+      "publisherId": 5
+    },
+    {
+      "id": 101,
+      "title": "Silver Champions 2",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 6,
+      "platform": "PlayStation 5",
+      "releaseDate": "2016-05-09",
+      "developerId": 100,
+      "publisherId": 3
+    },
+    {
+      "id": 102,
+      "title": "Mystic War HD 2",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 4,
+      "platform": "Xbox One",
+      "releaseDate": "2023-04-13",
+      "developerId": 44,
+      "publisherId": 17
+    },
+    {
+      "id": 103,
+      "title": "Rise of Hunters 2",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 3,
+      "platform": "PC",
+      "releaseDate": "2018-04-08",
+      "developerId": 43,
+      "publisherId": 19
+    },
+    {
+      "id": 104,
+      "title": "Azure Adventure 2",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 3,
+      "platform": "Xbox Series X",
+      "releaseDate": "2011-09-09",
+      "developerId": 74,
+      "publisherId": 13
+    },
+    {
+      "id": 105,
+      "title": "Fortress Revolution 2",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 13,
+      "platform": "Mobile",
+      "releaseDate": "2021-03-13",
+      "developerId": 82,
+      "publisherId": 17
+    },
+    {
+      "id": 106,
+      "title": "Super Adventure 2",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 5,
+      "platform": "Mobile",
+      "releaseDate": "2020-11-14",
+      "developerId": 96,
+      "publisherId": 12
+    },
+    {
+      "id": 107,
+      "title": "Storm Resurrection 2",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 9,
+      "platform": "Mobile",
+      "releaseDate": "2012-03-05",
+      "developerId": 91,
+      "publisherId": 17
+    },
+    {
+      "id": 108,
+      "title": "Crystal Defenders 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 11,
+      "platform": "Xbox One",
+      "releaseDate": "2016-09-28",
+      "developerId": 67,
+      "publisherId": 8
+    },
+    {
+      "id": 109,
+      "title": "Fall of Defenders Origins 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 14,
+      "platform": "PC",
+      "releaseDate": "2016-12-01",
+      "developerId": 67,
+      "publisherId": 1
+    },
+    {
+      "id": 110,
+      "title": "Golden Titans 2",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 14,
+      "platform": "PC/Steam",
+      "releaseDate": "2015-02-01",
+      "developerId": 92,
+      "publisherId": 18
+    },
+    {
+      "id": 111,
+      "title": "Phoenix 2",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 9,
+      "platform": "VR",
+      "releaseDate": "2014-04-15",
+      "developerId": 78,
+      "publisherId": 2
+    },
+    {
+      "id": 112,
+      "title": "Mystic Realm 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 7,
+      "platform": "Multi-platform",
+      "releaseDate": "2015-01-05",
+      "developerId": 35,
+      "publisherId": 20
+    },
+    {
+      "id": 113,
+      "title": "Cyber Colosseum Resurrection 2",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 13,
+      "platform": "VR",
+      "releaseDate": "2010-12-09",
+      "developerId": 60,
+      "publisherId": 2
+    },
+    {
+      "id": 114,
+      "title": "Ultra Colosseum X 2",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 9,
+      "platform": "Mobile",
+      "releaseDate": "2011-03-06",
+      "developerId": 46,
+      "publisherId": 7
+    },
+    {
+      "id": 115,
+      "title": "Crystal Galaxy 2",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 10,
+      "platform": "PC/Steam",
+      "releaseDate": "2018-07-16",
+      "developerId": 51,
+      "publisherId": 10
+    },
+    {
+      "id": 116,
+      "title": "Escape from City 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 8,
+      "platform": "Multi-platform",
+      "releaseDate": "2011-10-27",
+      "developerId": 77,
+      "publisherId": 15
+    },
+    {
+      "id": 117,
+      "title": "Chronicles of Phoenix Returns 2",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 11,
+      "platform": "VR",
+      "releaseDate": "2019-05-18",
+      "developerId": 60,
+      "publisherId": 1
+    },
+    {
+      "id": 118,
+      "title": "Arena 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 2,
+      "platform": "Xbox Series X",
+      "releaseDate": "2021-12-26",
+      "developerId": 95,
+      "publisherId": 3
+    },
+    {
+      "id": 119,
+      "title": "Crimson Warriors Zero 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 3,
+      "platform": "PC/Steam",
+      "releaseDate": "2018-09-18",
+      "developerId": 94,
+      "publisherId": 5
+    },
+    {
+      "id": 120,
+      "title": "Super Guardians 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 6,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-10-04",
+      "developerId": 94,
+      "publisherId": 7
+    },
+    {
+      "id": 121,
+      "title": "Raiders Plus 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 3,
+      "platform": "Multi-platform",
+      "releaseDate": "2022-11-28",
+      "developerId": 71,
+      "publisherId": 4
+    },
+    {
+      "id": 122,
+      "title": "Infinite Storm Plus 2",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 10,
+      "platform": "PlayStation 4",
+      "releaseDate": "2023-11-21",
+      "developerId": 34,
+      "publisherId": 15
+    },
+    {
+      "id": 123,
+      "title": "Rise of Heroes 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 6,
+      "platform": "PC/Steam",
+      "releaseDate": "2020-06-22",
+      "developerId": 57,
+      "publisherId": 11
+    },
+    {
+      "id": 124,
+      "title": "Defenders Reborn 2",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 4,
+      "platform": "Xbox One",
+      "releaseDate": "2012-12-27",
+      "developerId": 97,
+      "publisherId": 10
+    },
+    {
+      "id": 125,
+      "title": "Escape from Battle 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 6,
+      "platform": "Mobile",
+      "releaseDate": "2016-10-11",
+      "developerId": 75,
+      "publisherId": 14
+    },
+    {
+      "id": 126,
+      "title": "Legends 2",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 3,
+      "platform": "Xbox Series X",
+      "releaseDate": "2023-09-13",
+      "developerId": 22,
+      "publisherId": 4
+    },
+    {
+      "id": 127,
+      "title": "Rise of Empire 2",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 1,
+      "platform": "Xbox One",
+      "releaseDate": "2011-03-21",
+      "developerId": 89,
+      "publisherId": 11
+    },
+    {
+      "id": 128,
+      "title": "Mystic Odyssey X 2",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 10,
+      "platform": "PC/Steam",
+      "releaseDate": "2022-05-09",
+      "developerId": 50,
+      "publisherId": 10
+    },
+    {
+      "id": 129,
+      "title": "Mega Empire 2",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 12,
+      "platform": "Mobile",
+      "releaseDate": "2021-06-25",
+      "developerId": 22,
+      "publisherId": 1
+    },
+    {
+      "id": 130,
+      "title": "Tales of Arena 2",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 3,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2015-04-25",
+      "developerId": 59,
+      "publisherId": 9
+    },
+    {
+      "id": 131,
+      "title": "Neo Odyssey 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 12,
+      "platform": "PC/Steam",
+      "releaseDate": "2017-09-06",
+      "developerId": 54,
+      "publisherId": 20
+    },
+    {
+      "id": 132,
+      "title": "Legend of Guardians 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 5,
+      "platform": "PC",
+      "releaseDate": "2010-03-07",
+      "developerId": 54,
+      "publisherId": 5
+    },
+    {
+      "id": 133,
+      "title": "Legend of Universe 2",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 2,
+      "platform": "PC/Steam",
+      "releaseDate": "2011-02-23",
+      "developerId": 49,
+      "publisherId": 8
+    },
+    {
+      "id": 134,
+      "title": "Battle Unlimited 2",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 9,
+      "platform": "PC/Steam",
+      "releaseDate": "2012-07-13",
+      "developerId": 88,
+      "publisherId": 13
+    },
+    {
+      "id": 135,
+      "title": "Storm Zero 2",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 5,
+      "platform": "Xbox One",
+      "releaseDate": "2010-04-14",
+      "developerId": 85,
+      "publisherId": 3
+    },
+    {
+      "id": 136,
+      "title": "Epic Adventure 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 10,
+      "platform": "Multi-platform",
+      "releaseDate": "2011-10-26",
+      "developerId": 53,
+      "publisherId": 18
+    },
+    {
+      "id": 137,
+      "title": "Tales of Phoenix 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 13,
+      "platform": "Xbox One",
+      "releaseDate": "2015-10-21",
+      "developerId": 68,
+      "publisherId": 8
+    },
+    {
+      "id": 138,
+      "title": "Neo Phoenix HD 2",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 3,
+      "platform": "Multi-platform",
+      "releaseDate": "2010-03-30",
+      "developerId": 39,
+      "publisherId": 6
+    },
+    {
+      "id": 139,
+      "title": "World 2",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 1,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2011-07-29",
+      "developerId": 95,
+      "publisherId": 3
+    },
+    {
+      "id": 140,
+      "title": "Crystal Storm Origins 2",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 15,
+      "platform": "Multi-platform",
+      "releaseDate": "2012-06-22",
+      "developerId": 51,
+      "publisherId": 15
+    },
+    {
+      "id": 141,
+      "title": "Rise of Realm Origins 2",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 14,
+      "platform": "PC",
+      "releaseDate": "2020-12-09",
+      "developerId": 24,
+      "publisherId": 6
+    },
+    {
+      "id": 142,
+      "title": "Battle 2",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 6,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-07-30",
+      "developerId": 77,
+      "publisherId": 15
+    },
+    {
+      "id": 143,
+      "title": "Chronicles of Storm Remastered 2",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 2,
+      "platform": "Multi-platform",
+      "releaseDate": "2017-12-04",
+      "developerId": 31,
+      "publisherId": 11
+    },
+    {
+      "id": 144,
+      "title": "Hunters 4 2",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 8,
+      "platform": "PlayStation 5",
+      "releaseDate": "2012-01-03",
+      "developerId": 36,
+      "publisherId": 3
+    },
+    {
+      "id": 145,
+      "title": "Super Dragon Legacy 2",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 4,
+      "platform": "Multi-platform",
+      "releaseDate": "2015-07-01",
+      "developerId": 90,
+      "publisherId": 10
+    },
+    {
+      "id": 146,
+      "title": "Odyssey Zero 2",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 15,
+      "platform": "Multi-platform",
+      "releaseDate": "2020-10-11",
+      "developerId": 73,
+      "publisherId": 20
+    },
+    {
+      "id": 147,
+      "title": "Silver War 2",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 5,
+      "platform": "PC/Steam",
+      "releaseDate": "2011-04-15",
+      "developerId": 66,
+      "publisherId": 7
+    },
+    {
+      "id": 148,
+      "title": "Chronicles of Raiders 2 2",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 13,
+      "platform": "PlayStation 4",
+      "releaseDate": "2018-06-27",
+      "developerId": 37,
+      "publisherId": 7
+    },
+    {
+      "id": 149,
+      "title": "Super Empire HD 2",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 2,
+      "platform": "Mobile",
+      "releaseDate": "2010-05-30",
+      "developerId": 89,
+      "publisherId": 18
+    },
+    {
+      "id": 150,
+      "title": "Champions Revolution 3",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 1,
+      "platform": "Xbox One",
+      "releaseDate": "2011-12-15",
+      "developerId": 87,
+      "publisherId": 19
+    },
+    {
+      "id": 151,
+      "title": "Return to Heroes 3",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 8,
+      "platform": "PC/Steam",
+      "releaseDate": "2023-02-24",
+      "developerId": 33,
+      "publisherId": 9
+    },
+    {
+      "id": 152,
+      "title": "Tales of Saga Remastered 3",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 12,
+      "platform": "Xbox One",
+      "releaseDate": "2018-07-05",
+      "developerId": 31,
+      "publisherId": 17
+    },
+    {
+      "id": 153,
+      "title": "Champions Origins 3",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 12,
+      "platform": "PC/Steam",
+      "releaseDate": "2011-09-17",
+      "developerId": 31,
+      "publisherId": 1
+    },
+    {
+      "id": 154,
+      "title": "Return to Guardians Legacy 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 4,
+      "platform": "VR",
+      "releaseDate": "2020-02-07",
+      "developerId": 54,
+      "publisherId": 4
+    },
+    {
+      "id": 155,
+      "title": "Quantum Knight 3",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 1,
+      "platform": "VR",
+      "releaseDate": "2013-09-14",
+      "developerId": 63,
+      "publisherId": 12
+    },
+    {
+      "id": 156,
+      "title": "Tales of Conflict 3",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 12,
+      "platform": "Xbox One",
+      "releaseDate": "2019-12-13",
+      "developerId": 72,
+      "publisherId": 11
+    },
+    {
+      "id": 157,
+      "title": "Storm 3",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 15,
+      "platform": "PC",
+      "releaseDate": "2017-03-02",
+      "developerId": 32,
+      "publisherId": 19
+    },
+    {
+      "id": 158,
+      "title": "Escape from Castle Plus 3",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 5,
+      "platform": "PC/Steam",
+      "releaseDate": "2010-03-07",
+      "developerId": 30,
+      "publisherId": 10
+    },
+    {
+      "id": 159,
+      "title": "Mystic Colosseum 3",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 6,
+      "platform": "Multi-platform",
+      "releaseDate": "2023-07-14",
+      "developerId": 44,
+      "publisherId": 10
+    },
+    {
+      "id": 160,
+      "title": "Fall of Defenders 3",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 6,
+      "platform": "PC/Steam",
+      "releaseDate": "2013-11-03",
+      "developerId": 42,
+      "publisherId": 2
+    },
+    {
+      "id": 161,
+      "title": "Shadow Hunters Revolution 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 12,
+      "platform": "VR",
+      "releaseDate": "2011-04-15",
+      "developerId": 21,
+      "publisherId": 9
+    },
+    {
+      "id": 162,
+      "title": "Fall of Defenders 3",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 9,
+      "platform": "Multi-platform",
+      "releaseDate": "2022-01-18",
+      "developerId": 48,
+      "publisherId": 2
+    },
+    {
+      "id": 163,
+      "title": "Crimson Fortress Revolution 3",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 8,
+      "platform": "Xbox One",
+      "releaseDate": "2012-04-03",
+      "developerId": 52,
+      "publisherId": 12
+    },
+    {
+      "id": 164,
+      "title": "Castle HD 3",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 12,
+      "platform": "Xbox Series X",
+      "releaseDate": "2021-10-12",
+      "developerId": 48,
+      "publisherId": 10
+    },
+    {
+      "id": 165,
+      "title": "Legend of Journey 3 3",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 4,
+      "platform": "PC/Steam",
+      "releaseDate": "2024-02-01",
+      "developerId": 77,
+      "publisherId": 10
+    },
+    {
+      "id": 166,
+      "title": "Crystal Empire 3",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 11,
+      "platform": "VR",
+      "releaseDate": "2014-05-19",
+      "developerId": 73,
+      "publisherId": 9
+    },
+    {
+      "id": 167,
+      "title": "Azure Adventure 3",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "2016-09-06",
+      "developerId": 49,
+      "publisherId": 2
+    },
+    {
+      "id": 168,
+      "title": "Chronicles of Raiders 3",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 6,
+      "platform": "Mobile",
+      "releaseDate": "2024-08-08",
+      "developerId": 98,
+      "publisherId": 12
+    },
+    {
+      "id": 169,
+      "title": "Ultra Galaxy 3",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 11,
+      "platform": "Mobile",
+      "releaseDate": "2017-12-30",
+      "developerId": 71,
+      "publisherId": 15
+    },
+    {
+      "id": 170,
+      "title": "Knight 3",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 8,
+      "platform": "Mobile",
+      "releaseDate": "2016-04-23",
+      "developerId": 33,
+      "publisherId": 12
+    },
+    {
+      "id": 171,
+      "title": "Epic Titans 3",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 15,
+      "platform": "Mobile",
+      "releaseDate": "2023-06-13",
+      "developerId": 27,
+      "publisherId": 8
+    },
+    {
+      "id": 172,
+      "title": "Fall of Knight 3",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 5,
+      "platform": "Mobile",
+      "releaseDate": "2021-06-16",
+      "developerId": 26,
+      "publisherId": 12
+    },
+    {
+      "id": 173,
+      "title": "Legend of Phoenix 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 4,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-08-13",
+      "developerId": 31,
+      "publisherId": 19
+    },
+    {
+      "id": 174,
+      "title": "Rise of Arena 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 2,
+      "platform": "PC/Steam",
+      "releaseDate": "2015-01-25",
+      "developerId": 83,
+      "publisherId": 20
+    },
+    {
+      "id": 175,
+      "title": "Ancient Heroes Zero 3",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 2,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-06-10",
+      "developerId": 25,
+      "publisherId": 1
+    },
+    {
+      "id": 176,
+      "title": "Escape from Arena 3",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 15,
+      "platform": "Xbox Series X",
+      "releaseDate": "2018-08-23",
+      "developerId": 100,
+      "publisherId": 7
+    },
+    {
+      "id": 177,
+      "title": "City 3",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 3,
+      "platform": "PC/Steam",
+      "releaseDate": "2010-01-23",
+      "developerId": 54,
+      "publisherId": 6
+    },
+    {
+      "id": 178,
+      "title": "Ancient Castle 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 8,
+      "platform": "PlayStation 5",
+      "releaseDate": "2013-03-21",
+      "developerId": 32,
+      "publisherId": 2
+    },
+    {
+      "id": 179,
+      "title": "Dungeon 3",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 2,
+      "platform": "Mobile",
+      "releaseDate": "2016-04-30",
+      "developerId": 23,
+      "publisherId": 2
+    },
+    {
+      "id": 180,
+      "title": "Fall of World 3",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 2,
+      "platform": "PC",
+      "releaseDate": "2024-10-21",
+      "developerId": 71,
+      "publisherId": 4
+    },
+    {
+      "id": 181,
+      "title": "Fortress 3",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 3,
+      "platform": "Mobile",
+      "releaseDate": "2010-06-18",
+      "developerId": 30,
+      "publisherId": 4
+    },
+    {
+      "id": 182,
+      "title": "Escape from War Legacy 3",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 10,
+      "platform": "PlayStation 4",
+      "releaseDate": "2023-07-23",
+      "developerId": 62,
+      "publisherId": 1
+    },
+    {
+      "id": 183,
+      "title": "Empire Resurrection 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 2,
+      "platform": "PC/Steam",
+      "releaseDate": "2010-12-07",
+      "developerId": 97,
+      "publisherId": 11
+    },
+    {
+      "id": 184,
+      "title": "Legend of Realm 3",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 1,
+      "platform": "Xbox One",
+      "releaseDate": "2018-06-14",
+      "developerId": 69,
+      "publisherId": 5
+    },
+    {
+      "id": 185,
+      "title": "Phoenix 3",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 9,
+      "platform": "PlayStation 5",
+      "releaseDate": "2023-07-07",
+      "developerId": 90,
+      "publisherId": 17
+    },
+    {
+      "id": 186,
+      "title": "Kingdom Chronicles 3",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 4,
+      "platform": "Xbox One",
+      "releaseDate": "2022-06-21",
+      "developerId": 26,
+      "publisherId": 16
+    },
+    {
+      "id": 187,
+      "title": "Universe 3",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 15,
+      "platform": "PlayStation 5",
+      "releaseDate": "2020-06-07",
+      "developerId": 44,
+      "publisherId": 5
+    },
+    {
+      "id": 188,
+      "title": "Return to Dungeon Unlimited 3",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 13,
+      "platform": "Mobile",
+      "releaseDate": "2023-09-26",
+      "developerId": 69,
+      "publisherId": 1
+    },
+    {
+      "id": 189,
+      "title": "Ultimate Guardians 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 15,
+      "platform": "Mobile",
+      "releaseDate": "2022-01-19",
+      "developerId": 54,
+      "publisherId": 8
+    },
+    {
+      "id": 190,
+      "title": "Dragon 3",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 6,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2018-02-10",
+      "developerId": 78,
+      "publisherId": 4
+    },
+    {
+      "id": 191,
+      "title": "Tales of World Prime 3",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 13,
+      "platform": "PC/Steam",
+      "releaseDate": "2019-04-02",
+      "developerId": 46,
+      "publisherId": 15
+    },
+    {
+      "id": 192,
+      "title": "Ultra World 3",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 10,
+      "platform": "VR",
+      "releaseDate": "2017-01-05",
+      "developerId": 97,
+      "publisherId": 3
+    },
+    {
+      "id": 193,
+      "title": "Castle X 3",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 2,
+      "platform": "PlayStation 4",
+      "releaseDate": "2023-01-04",
+      "developerId": 67,
+      "publisherId": 2
+    },
+    {
+      "id": 194,
+      "title": "Infinite Titans Zero 3",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 13,
+      "platform": "PlayStation 4",
+      "releaseDate": "2012-07-31",
+      "developerId": 31,
+      "publisherId": 15
+    },
+    {
+      "id": 195,
+      "title": "Fall of Galaxy Returns 3",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 1,
+      "platform": "Xbox One",
+      "releaseDate": "2014-10-30",
+      "developerId": 77,
+      "publisherId": 3
+    },
+    {
+      "id": 196,
+      "title": "Legend of Storm 3",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 14,
+      "platform": "Mobile",
+      "releaseDate": "2022-01-20",
+      "developerId": 33,
+      "publisherId": 6
+    },
+    {
+      "id": 197,
+      "title": "Tales of Dragon Origins 3",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "2012-02-26",
+      "developerId": 53,
+      "publisherId": 1
+    },
+    {
+      "id": 198,
+      "title": "Ancient Titans 3",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 3,
+      "platform": "Xbox One",
+      "releaseDate": "2024-06-12",
+      "developerId": 67,
+      "publisherId": 16
+    },
+    {
+      "id": 199,
+      "title": "Crimson Colosseum 3",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 3,
+      "platform": "Xbox One",
+      "releaseDate": "2014-08-01",
+      "developerId": 35,
+      "publisherId": 14
+    },
+    {
+      "id": 200,
+      "title": "Quest Prime 4",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 11,
+      "platform": "PlayStation 4",
+      "releaseDate": "2012-12-27",
+      "developerId": 29,
+      "publisherId": 15
+    },
+    {
+      "id": 201,
+      "title": "Castle 4",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 4,
+      "platform": "Xbox Series X",
+      "releaseDate": "2024-05-24",
+      "developerId": 52,
+      "publisherId": 20
+    },
+    {
+      "id": 202,
+      "title": "Quantum Colosseum 4",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 8,
+      "platform": "Xbox Series X",
+      "releaseDate": "2011-12-03",
+      "developerId": 63,
+      "publisherId": 14
+    },
+    {
+      "id": 203,
+      "title": "Chronicles of Guardians 4",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 12,
+      "platform": "PC",
+      "releaseDate": "2023-02-09",
+      "developerId": 39,
+      "publisherId": 3
+    },
+    {
+      "id": 204,
+      "title": "Escape from Dragon 4",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 7,
+      "platform": "Multi-platform",
+      "releaseDate": "2014-02-07",
+      "developerId": 31,
+      "publisherId": 12
+    },
+    {
+      "id": 205,
+      "title": "Quest 4",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 9,
+      "platform": "PC",
+      "releaseDate": "2019-07-13",
+      "developerId": 71,
+      "publisherId": 13
+    },
+    {
+      "id": 206,
+      "title": "Guardians 4",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 7,
+      "platform": "Xbox One",
+      "releaseDate": "2016-05-07",
+      "developerId": 79,
+      "publisherId": 17
+    },
+    {
+      "id": 207,
+      "title": "Legends Remastered 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 7,
+      "platform": "PC/Steam",
+      "releaseDate": "2024-07-12",
+      "developerId": 73,
+      "publisherId": 4
+    },
+    {
+      "id": 208,
+      "title": "Kingdom Legacy 4",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 10,
+      "platform": "Mobile",
+      "releaseDate": "2019-05-06",
+      "developerId": 48,
+      "publisherId": 6
+    },
+    {
+      "id": 209,
+      "title": "Epic War Forever 4",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 15,
+      "platform": "VR",
+      "releaseDate": "2016-01-19",
+      "developerId": 81,
+      "publisherId": 16
+    },
+    {
+      "id": 210,
+      "title": "Galaxy 4",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 15,
+      "platform": "PC/Steam",
+      "releaseDate": "2013-06-02",
+      "developerId": 28,
+      "publisherId": 6
+    },
+    {
+      "id": 211,
+      "title": "Mystic Storm 4",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 5,
+      "platform": "Xbox One",
+      "releaseDate": "2019-05-15",
+      "developerId": 66,
+      "publisherId": 1
+    },
+    {
+      "id": 212,
+      "title": "Shadow Odyssey 4",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 10,
+      "platform": "PlayStation 5",
+      "releaseDate": "2015-02-15",
+      "developerId": 28,
+      "publisherId": 12
+    },
+    {
+      "id": 213,
+      "title": "Storm 4",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 13,
+      "platform": "Xbox Series X",
+      "releaseDate": "2014-01-23",
+      "developerId": 26,
+      "publisherId": 7
+    },
+    {
+      "id": 214,
+      "title": "Return to Dragon 4",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 5,
+      "platform": "VR",
+      "releaseDate": "2011-03-01",
+      "developerId": 95,
+      "publisherId": 3
+    },
+    {
+      "id": 215,
+      "title": "Escape from Empire 4",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 12,
+      "platform": "Xbox Series X",
+      "releaseDate": "2016-06-24",
+      "developerId": 81,
+      "publisherId": 11
+    },
+    {
+      "id": 216,
+      "title": "Dark Guardians 4",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 6,
+      "platform": "PC",
+      "releaseDate": "2020-03-12",
+      "developerId": 28,
+      "publisherId": 18
+    },
+    {
+      "id": 217,
+      "title": "Escape from Galaxy 2 4",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 2,
+      "platform": "Mobile",
+      "releaseDate": "2020-02-27",
+      "developerId": 61,
+      "publisherId": 6
+    },
+    {
+      "id": 218,
+      "title": "Mystic Storm Plus 4",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 8,
+      "platform": "Xbox Series X",
+      "releaseDate": "2023-10-06",
+      "developerId": 57,
+      "publisherId": 14
+    },
+    {
+      "id": 219,
+      "title": "Quest Resurrection 4",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 10,
+      "platform": "PlayStation 5",
+      "releaseDate": "2022-03-27",
+      "developerId": 49,
+      "publisherId": 7
+    },
+    {
+      "id": 220,
+      "title": "Storm Origins 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 14,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2021-04-22",
+      "developerId": 78,
+      "publisherId": 7
+    },
+    {
+      "id": 221,
+      "title": "Escape from Champions 4",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 10,
+      "platform": "VR",
+      "releaseDate": "2023-10-31",
+      "developerId": 92,
+      "publisherId": 1
+    },
+    {
+      "id": 222,
+      "title": "Saga 4",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 9,
+      "platform": "VR",
+      "releaseDate": "2017-04-22",
+      "developerId": 100,
+      "publisherId": 12
+    },
+    {
+      "id": 223,
+      "title": "Tales of Warriors Prime 4",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 15,
+      "platform": "Mobile",
+      "releaseDate": "2023-09-21",
+      "developerId": 42,
+      "publisherId": 17
+    },
+    {
+      "id": 224,
+      "title": "Chronicles of Warriors Forever 4",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 1,
+      "platform": "PC/Steam",
+      "releaseDate": "2023-03-12",
+      "developerId": 97,
+      "publisherId": 8
+    },
+    {
+      "id": 225,
+      "title": "Ultra Guardians Zero 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 7,
+      "platform": "VR",
+      "releaseDate": "2011-01-22",
+      "developerId": 78,
+      "publisherId": 16
+    },
+    {
+      "id": 226,
+      "title": "Cyber Champions 4",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 13,
+      "platform": "PlayStation 5",
+      "releaseDate": "2017-05-22",
+      "developerId": 70,
+      "publisherId": 20
+    },
+    {
+      "id": 227,
+      "title": "Ancient World Resurrection 4",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 9,
+      "platform": "PC/Steam",
+      "releaseDate": "2019-10-03",
+      "developerId": 32,
+      "publisherId": 17
+    },
+    {
+      "id": 228,
+      "title": "World Forever 4",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 15,
+      "platform": "PlayStation 5",
+      "releaseDate": "2019-08-09",
+      "developerId": 30,
+      "publisherId": 3
+    },
+    {
+      "id": 229,
+      "title": "Escape from Storm Origins 4",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 10,
+      "platform": "PC",
+      "releaseDate": "2017-07-31",
+      "developerId": 89,
+      "publisherId": 18
+    },
+    {
+      "id": 230,
+      "title": "Raiders 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 2,
+      "platform": "Xbox Series X",
+      "releaseDate": "2014-05-01",
+      "developerId": 61,
+      "publisherId": 10
+    },
+    {
+      "id": 231,
+      "title": "Ultimate Hunters 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 4,
+      "platform": "PlayStation 4",
+      "releaseDate": "2024-08-02",
+      "developerId": 84,
+      "publisherId": 14
+    },
+    {
+      "id": 232,
+      "title": "Ultimate Fortress 4",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 10,
+      "platform": "Multi-platform",
+      "releaseDate": "2020-03-31",
+      "developerId": 57,
+      "publisherId": 4
+    },
+    {
+      "id": 233,
+      "title": "Battle 4",
+      "description": "A heartwarming journey through beautifully crafted environments.",
+      "genreId": 5,
+      "platform": "PlayStation 5",
+      "releaseDate": "2023-04-25",
+      "developerId": 70,
+      "publisherId": 10
+    },
+    {
+      "id": 234,
+      "title": "Kingdom 4",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 3,
+      "platform": "VR",
+      "releaseDate": "2016-11-03",
+      "developerId": 25,
+      "publisherId": 5
+    },
+    {
+      "id": 235,
+      "title": "City 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 5,
+      "platform": "Mobile",
+      "releaseDate": "2019-01-08",
+      "developerId": 98,
+      "publisherId": 1
+    },
+    {
+      "id": 236,
+      "title": "Golden Guardians 4",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 1,
+      "platform": "PlayStation 4",
+      "releaseDate": "2020-04-16",
+      "developerId": 88,
+      "publisherId": 13
+    },
+    {
+      "id": 237,
+      "title": "Ultimate Adventure 4",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 9,
+      "platform": "VR",
+      "releaseDate": "2020-01-15",
+      "developerId": 71,
+      "publisherId": 10
+    },
+    {
+      "id": 238,
+      "title": "Eternal Defenders 4",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 10,
+      "platform": "Xbox One",
+      "releaseDate": "2022-08-13",
+      "developerId": 23,
+      "publisherId": 14
+    },
+    {
+      "id": 239,
+      "title": "Rise of Raiders 4",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 4,
+      "platform": "PlayStation 4",
+      "releaseDate": "2015-01-27",
+      "developerId": 29,
+      "publisherId": 17
+    },
+    {
+      "id": 240,
+      "title": "Dark Fortress Origins 4",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 6,
+      "platform": "Xbox Series X",
+      "releaseDate": "2020-05-30",
+      "developerId": 89,
+      "publisherId": 14
+    },
+    {
+      "id": 241,
+      "title": "Mystic War 4",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 11,
+      "platform": "Xbox Series X",
+      "releaseDate": "2021-04-01",
+      "developerId": 62,
+      "publisherId": 14
+    },
+    {
+      "id": 242,
+      "title": "Azure Raiders Returns 4",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 4,
+      "platform": "VR",
+      "releaseDate": "2016-05-28",
+      "developerId": 57,
+      "publisherId": 18
+    },
+    {
+      "id": 243,
+      "title": "Eternal Warriors Unlimited 4",
+      "description": "An innovative title that pushes the boundaries of what games can achieve.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "2011-05-11",
+      "developerId": 67,
+      "publisherId": 9
+    },
+    {
+      "id": 244,
+      "title": "Saga Online 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 4,
+      "platform": "Xbox One",
+      "releaseDate": "2023-09-10",
+      "developerId": 82,
+      "publisherId": 19
+    },
+    {
+      "id": 245,
+      "title": "Crimson Empire Prime 4",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 3,
+      "platform": "Multi-platform",
+      "releaseDate": "2013-04-21",
+      "developerId": 98,
+      "publisherId": 1
+    },
+    {
+      "id": 246,
+      "title": "Ultimate Galaxy 4",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 11,
+      "platform": "Multi-platform",
+      "releaseDate": "2023-04-30",
+      "developerId": 59,
+      "publisherId": 11
+    },
+    {
+      "id": 247,
+      "title": "Super Odyssey X 4",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 11,
+      "platform": "Xbox One",
+      "releaseDate": "2021-04-11",
+      "developerId": 27,
+      "publisherId": 9
+    },
+    {
+      "id": 248,
+      "title": "Epic Warriors 4",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 10,
+      "platform": "Xbox Series X",
+      "releaseDate": "2016-02-06",
+      "developerId": 94,
+      "publisherId": 19
+    },
+    {
+      "id": 249,
+      "title": "Journey X 4",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 8,
+      "platform": "PC/Steam",
+      "releaseDate": "2015-07-10",
+      "developerId": 59,
+      "publisherId": 2
+    },
+    {
+      "id": 250,
+      "title": "Epic Heroes 5",
+      "description": "A thrilling action-packed experience with stunning visuals and immersive gameplay.",
+      "genreId": 6,
+      "platform": "PC",
+      "releaseDate": "2016-11-28",
+      "developerId": 61,
+      "publisherId": 3
+    },
+    {
+      "id": 251,
+      "title": "Journey 5",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 3,
+      "platform": "PlayStation 4",
+      "releaseDate": "2015-05-31",
+      "developerId": 87,
+      "publisherId": 7
+    },
+    {
+      "id": 252,
+      "title": "Castle 5",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 2,
+      "platform": "VR",
+      "releaseDate": "2024-03-03",
+      "developerId": 65,
+      "publisherId": 17
+    },
+    {
+      "id": 253,
+      "title": "Kingdom 5",
+      "description": "An open-world adventure with endless possibilities and discoveries.",
+      "genreId": 10,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2019-08-22",
+      "developerId": 63,
+      "publisherId": 7
+    },
+    {
+      "id": 254,
+      "title": "Ancient Realm 5",
+      "description": "An epic adventure that challenges players to explore vast worlds and overcome incredible odds.",
+      "genreId": 14,
+      "platform": "PC",
+      "releaseDate": "2018-12-12",
+      "developerId": 31,
+      "publisherId": 19
+    },
+    {
+      "id": 255,
+      "title": "Escape from Universe 4 5",
+      "description": "A fast-paced action game with responsive controls and exciting combat.",
+      "genreId": 11,
+      "platform": "Xbox One",
+      "releaseDate": "2018-03-20",
+      "developerId": 40,
+      "publisherId": 14
+    },
+    {
+      "id": 256,
+      "title": "Neo Universe Plus 5",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 14,
+      "platform": "Xbox One",
+      "releaseDate": "2017-11-17",
+      "developerId": 80,
+      "publisherId": 16
+    },
+    {
+      "id": 257,
+      "title": "Journey Remastered 5",
+      "description": "A narrative-driven experience that explores complex themes and emotions.",
+      "genreId": 4,
+      "platform": "Xbox Series X",
+      "releaseDate": "2016-09-08",
+      "developerId": 64,
+      "publisherId": 19
+    },
+    {
+      "id": 258,
+      "title": "Dark Titans 5",
+      "description": "A strategic masterpiece that combines deep mechanics with engaging storytelling.",
+      "genreId": 12,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2010-07-16",
+      "developerId": 25,
+      "publisherId": 2
+    },
+    {
+      "id": 259,
+      "title": "Tales of Dungeon 5",
+      "description": "A challenging game that rewards skill and perseverance.",
+      "genreId": 1,
+      "platform": "PC",
+      "releaseDate": "2017-05-05",
+      "developerId": 80,
+      "publisherId": 2
+    },
+    {
+      "id": 260,
+      "title": "Legend of Castle 5",
+      "description": "A competitive multiplayer experience that brings players together from around the world.",
+      "genreId": 10,
+      "platform": "PlayStation 4",
+      "releaseDate": "2024-01-18",
+      "developerId": 25,
+      "publisherId": 10
+    },
+    {
+      "id": 261,
+      "title": "Chronicles of Heroes",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 11,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2001-11-23",
+      "developerId": 186,
+      "publisherId": 7
+    },
+    {
+      "id": 262,
+      "title": "Iron Hunters Prophecy",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 19,
+      "platform": "Xbox Series X",
+      "releaseDate": "2010-01-18",
+      "developerId": 200,
+      "publisherId": 2
+    },
+    {
+      "id": 263,
+      "title": "Lost Frontiers",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 28,
+      "platform": "Mobile",
+      "releaseDate": "2011-02-10",
+      "developerId": 192,
+      "publisherId": 115
+    },
+    {
+      "id": 264,
+      "title": "Epic Legends",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "2008-08-01",
+      "developerId": 171,
+      "publisherId": 7
+    },
+    {
+      "id": 265,
+      "title": "Eternal Frontiers",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 28,
+      "platform": "Xbox Series X",
+      "releaseDate": "1997-10-08",
+      "developerId": 38,
+      "publisherId": 2
+    },
+    {
+      "id": 266,
+      "title": "Eternal Kingdoms",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 19,
+      "platform": "PC",
+      "releaseDate": "2015-02-01",
+      "developerId": 135,
+      "publisherId": 20
+    },
+    {
+      "id": 267,
+      "title": "Eternal Frontiers Ultimate",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 20,
+      "platform": "Multi-platform",
+      "releaseDate": "2004-01-03",
+      "developerId": 169,
+      "publisherId": 11
+    },
+    {
+      "id": 268,
+      "title": "Infinite Legacy",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 22,
+      "platform": "PC",
+      "releaseDate": "2009-05-12",
+      "developerId": 55,
+      "publisherId": 119
+    },
+    {
+      "id": 269,
+      "title": "Epic World",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 18,
+      "platform": "PlayStation 5",
+      "releaseDate": "2008-09-23",
+      "developerId": 144,
+      "publisherId": 102
+    },
+    {
+      "id": 270,
+      "title": "Mystic Dominion Origins",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 9,
+      "platform": "PlayStation 4",
+      "releaseDate": "2008-08-28",
+      "developerId": 193,
+      "publisherId": 6
+    },
+    {
+      "id": 271,
+      "title": "Dark Odyssey",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 6,
+      "platform": "PlayStation 4",
+      "releaseDate": "2011-01-09",
+      "developerId": 50,
+      "publisherId": 119
+    },
+    {
+      "id": 272,
+      "title": "Sacred Empire Resurrection",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 16,
+      "platform": "Mobile",
+      "releaseDate": "1997-08-12",
+      "developerId": 61,
+      "publisherId": 9
+    },
+    {
+      "id": 273,
+      "title": "Legend of Hunters Chronicles",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 3,
+      "platform": "PlayStation 4",
+      "releaseDate": "2006-05-23",
+      "developerId": 85,
+      "publisherId": 13
+    },
+    {
+      "id": 274,
+      "title": "Neo Frontiers Ultimate",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 22,
+      "platform": "PlayStation 4",
+      "releaseDate": "2003-01-25",
+      "developerId": 64,
+      "publisherId": 113
+    },
+    {
+      "id": 275,
+      "title": "Iron Dominion",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 1,
+      "platform": "PlayStation 4",
+      "releaseDate": "2021-02-22",
+      "developerId": 84,
+      "publisherId": 113
+    },
+    {
+      "id": 276,
+      "title": "Neo Hunters Unlimited",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 28,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2012-03-17",
+      "developerId": 66,
+      "publisherId": 5
+    },
+    {
+      "id": 277,
+      "title": "Tales of Knights",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 30,
+      "platform": "PlayStation 5",
+      "releaseDate": "2007-04-19",
+      "developerId": 183,
+      "publisherId": 105
+    },
+    {
+      "id": 278,
+      "title": "Lost Quest Revolution",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 11,
+      "platform": "Xbox Series X",
+      "releaseDate": "2008-07-21",
+      "developerId": 124,
+      "publisherId": 20
+    },
+    {
+      "id": 279,
+      "title": "Tales of Empire Chronicles",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 10,
+      "platform": "Xbox Series X",
+      "releaseDate": "2011-11-28",
+      "developerId": 81,
+      "publisherId": 9
+    },
+    {
+      "id": 280,
+      "title": "Sacred Titans Eclipse",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "1995-01-14",
+      "developerId": 174,
+      "publisherId": 14
+    },
+    {
+      "id": 281,
+      "title": "Final Legends Resurrection",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 27,
+      "platform": "PlayStation 4",
+      "releaseDate": "2016-10-06",
+      "developerId": 148,
+      "publisherId": 2
+    },
+    {
+      "id": 282,
+      "title": "Eternal Odyssey Prophecy",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 8,
+      "platform": "Mobile",
+      "releaseDate": "2011-07-23",
+      "developerId": 151,
+      "publisherId": 13
+    },
+    {
+      "id": 283,
+      "title": "Epic Heroes",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 16,
+      "platform": "PlayStation 4",
+      "releaseDate": "2002-06-12",
+      "developerId": 86,
+      "publisherId": 112
+    },
+    {
+      "id": 284,
+      "title": "Thunder Castle",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 2,
+      "platform": "PC",
+      "releaseDate": "2019-05-26",
+      "developerId": 46,
+      "publisherId": 120
+    },
+    {
+      "id": 285,
+      "title": "Legend of Titans",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 9,
+      "platform": "PC",
+      "releaseDate": "2009-09-06",
+      "developerId": 125,
+      "publisherId": 106
+    },
+    {
+      "id": 286,
+      "title": "Infinite Conquest",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 30,
+      "platform": "PlayStation 4",
+      "releaseDate": "2016-05-20",
+      "developerId": 99,
+      "publisherId": 10
+    },
+    {
+      "id": 287,
+      "title": "Mystic Hunters Prophecy",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 2,
+      "platform": "Mobile",
+      "releaseDate": "2016-01-26",
+      "developerId": 50,
+      "publisherId": 119
+    },
+    {
+      "id": 288,
+      "title": "Final Legacy Ultimate",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 19,
+      "platform": "Multi-platform",
+      "releaseDate": "2003-01-05",
+      "developerId": 171,
+      "publisherId": 111
+    },
+    {
+      "id": 289,
+      "title": "Dark Legacy",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 16,
+      "platform": "Nintendo Switch",
+      "releaseDate": "1996-10-02",
+      "developerId": 154,
+      "publisherId": 112
+    },
+    {
+      "id": 290,
+      "title": "Phantom Horizons Eclipse",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 19,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2014-05-10",
+      "developerId": 98,
+      "publisherId": 105
+    },
+    {
+      "id": 291,
+      "title": "Lost Realm Ultimate",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 19,
+      "platform": "PC",
+      "releaseDate": "2015-01-03",
+      "developerId": 75,
+      "publisherId": 105
+    },
+    {
+      "id": 292,
+      "title": "Tales of Warriors",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 14,
+      "platform": "Mobile",
+      "releaseDate": "2023-05-23",
+      "developerId": 52,
+      "publisherId": 108
+    },
+    {
+      "id": 293,
+      "title": "Sacred Hunters Revolution",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 7,
+      "platform": "PlayStation 5",
+      "releaseDate": "2022-10-27",
+      "developerId": 144,
+      "publisherId": 117
+    },
+    {
+      "id": 294,
+      "title": "Phantom Frontiers Resurrection",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 16,
+      "platform": "Xbox Series X",
+      "releaseDate": "1995-03-23",
+      "developerId": 62,
+      "publisherId": 14
+    },
+    {
+      "id": 295,
+      "title": "Eternal Legends Eclipse",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 4,
+      "platform": "PlayStation 4",
+      "releaseDate": "2002-06-26",
+      "developerId": 62,
+      "publisherId": 4
+    },
+    {
+      "id": 296,
+      "title": "Rise of Heroes",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 4,
+      "platform": "Multi-platform",
+      "releaseDate": "2010-04-02",
+      "developerId": 167,
+      "publisherId": 115
+    },
+    {
+      "id": 297,
+      "title": "Crystal Odyssey",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 24,
+      "platform": "PC",
+      "releaseDate": "2024-05-25",
+      "developerId": 43,
+      "publisherId": 6
+    },
+    {
+      "id": 298,
+      "title": "Tales of Empire",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 5,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-11-27",
+      "developerId": 71,
+      "publisherId": 12
+    },
+    {
+      "id": 299,
+      "title": "Legend of Realm Reborn",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 18,
+      "platform": "Multi-platform",
+      "releaseDate": "2000-05-11",
+      "developerId": 61,
+      "publisherId": 14
+    },
+    {
+      "id": 300,
+      "title": "Eternal Dominion Ascension",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 15,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2012-12-10",
+      "developerId": 67,
+      "publisherId": 20
+    },
+    {
+      "id": 301,
+      "title": "Tales of Conquest Ascension",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 20,
+      "platform": "PlayStation 5",
+      "releaseDate": "2001-03-01",
+      "developerId": 81,
+      "publisherId": 17
+    },
+    {
+      "id": 302,
+      "title": "Rise of Galaxy Revolution",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 29,
+      "platform": "Mobile",
+      "releaseDate": "2008-09-15",
+      "developerId": 160,
+      "publisherId": 109
+    },
+    {
+      "id": 303,
+      "title": "Star Legends Ultimate",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 17,
+      "platform": "Xbox Series X",
+      "releaseDate": "2000-03-02",
+      "developerId": 49,
+      "publisherId": 103
+    },
+    {
+      "id": 304,
+      "title": "Star Castle Ascension",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 5,
+      "platform": "PlayStation 5",
+      "releaseDate": "2002-12-21",
+      "developerId": 54,
+      "publisherId": 12
+    },
+    {
+      "id": 305,
+      "title": "Rise of World Origins",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 21,
+      "platform": "PlayStation 5",
+      "releaseDate": "2020-01-18",
+      "developerId": 68,
+      "publisherId": 104
+    },
+    {
+      "id": 306,
+      "title": "Shadow Warriors Saga",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 26,
+      "platform": "Multi-platform",
+      "releaseDate": "2003-10-19",
+      "developerId": 23,
+      "publisherId": 12
+    },
+    {
+      "id": 307,
+      "title": "Lost Hunters",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 1,
+      "platform": "Mobile",
+      "releaseDate": "2015-03-06",
+      "developerId": 91,
+      "publisherId": 120
+    },
+    {
+      "id": 308,
+      "title": "Crystal Hunters",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 8,
+      "platform": "Nintendo Switch",
+      "releaseDate": "1995-03-09",
+      "developerId": 161,
+      "publisherId": 102
+    },
+    {
+      "id": 309,
+      "title": "Final Heroes Destiny",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 19,
+      "platform": "PlayStation 5",
+      "releaseDate": "1999-10-18",
+      "developerId": 92,
+      "publisherId": 112
+    },
+    {
+      "id": 310,
+      "title": "Crystal Quest Unlimited",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 14,
+      "platform": "PlayStation 4",
+      "releaseDate": "2021-10-24",
+      "developerId": 195,
+      "publisherId": 5
+    },
+    {
+      "id": 311,
+      "title": "Final Odyssey",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 1,
+      "platform": "PlayStation 4",
+      "releaseDate": "2013-05-19",
+      "developerId": 27,
+      "publisherId": 120
+    },
+    {
+      "id": 312,
+      "title": "Lost Castle",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 23,
+      "platform": "Xbox Series X",
+      "releaseDate": "2017-02-26",
+      "developerId": 198,
+      "publisherId": 12
+    },
+    {
+      "id": 313,
+      "title": "Final Knights Eclipse",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 25,
+      "platform": "PlayStation 4",
+      "releaseDate": "2000-08-22",
+      "developerId": 163,
+      "publisherId": 11
+    },
+    {
+      "id": 314,
+      "title": "Thunder Empire",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 18,
+      "platform": "Nintendo Switch",
+      "releaseDate": "1999-04-26",
+      "developerId": 74,
+      "publisherId": 120
+    },
+    {
+      "id": 315,
+      "title": "Cyber Horizons",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 30,
+      "platform": "Mobile",
+      "releaseDate": "2013-12-16",
+      "developerId": 76,
+      "publisherId": 106
+    },
+    {
+      "id": 316,
+      "title": "Sacred Empire",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 5,
+      "platform": "Xbox Series X",
+      "releaseDate": "2020-07-28",
+      "developerId": 158,
+      "publisherId": 113
+    },
+    {
+      "id": 317,
+      "title": "Neo Titans",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 21,
+      "platform": "PlayStation 5",
+      "releaseDate": "2008-03-10",
+      "developerId": 132,
+      "publisherId": 4
+    },
+    {
+      "id": 318,
+      "title": "Eternal Legends Revolution",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 13,
+      "platform": "Multi-platform",
+      "releaseDate": "2015-04-15",
+      "developerId": 64,
+      "publisherId": 17
+    },
+    {
+      "id": 319,
+      "title": "Infinite Galaxy",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 26,
+      "platform": "Multi-platform",
+      "releaseDate": "2002-06-02",
+      "developerId": 21,
+      "publisherId": 5
+    },
+    {
+      "id": 320,
+      "title": "Eternal Horizons",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 5,
+      "platform": "Xbox Series X",
+      "releaseDate": "2019-01-20",
+      "developerId": 51,
+      "publisherId": 14
+    },
+    {
+      "id": 321,
+      "title": "Crystal Legacy",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 12,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2010-06-28",
+      "developerId": 45,
+      "publisherId": 14
+    },
+    {
+      "id": 322,
+      "title": "Epic Hunters",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 26,
+      "platform": "PlayStation 4",
+      "releaseDate": "2022-01-24",
+      "developerId": 97,
+      "publisherId": 103
+    },
+    {
+      "id": 323,
+      "title": "Epic Empire Origins",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 27,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2015-07-02",
+      "developerId": 76,
+      "publisherId": 111
+    },
+    {
+      "id": 324,
+      "title": "Sacred Horizons",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 29,
+      "platform": "Xbox Series X",
+      "releaseDate": "2013-08-12",
+      "developerId": 171,
+      "publisherId": 20
+    },
+    {
+      "id": 325,
+      "title": "Shadow Empire Awakening",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 20,
+      "platform": "Mobile",
+      "releaseDate": "2015-06-26",
+      "developerId": 90,
+      "publisherId": 14
+    },
+    {
+      "id": 326,
+      "title": "Legend of Realm Prophecy",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 26,
+      "platform": "Multi-platform",
+      "releaseDate": "2002-11-10",
+      "developerId": 166,
+      "publisherId": 120
+    },
+    {
+      "id": 327,
+      "title": "Final Warriors",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 4,
+      "platform": "Mobile",
+      "releaseDate": "2024-04-09",
+      "developerId": 85,
+      "publisherId": 2
+    },
+    {
+      "id": 328,
+      "title": "Rise of Horizons",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 1,
+      "platform": "PC",
+      "releaseDate": "2018-06-25",
+      "developerId": 176,
+      "publisherId": 20
+    },
+    {
+      "id": 329,
+      "title": "Neo Legacy Revolution",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 18,
+      "platform": "PlayStation 5",
+      "releaseDate": "2023-06-03",
+      "developerId": 50,
+      "publisherId": 101
+    },
+    {
+      "id": 330,
+      "title": "Iron Frontiers Origins",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 18,
+      "platform": "Multi-platform",
+      "releaseDate": "1998-02-11",
+      "developerId": 37,
+      "publisherId": 111
+    },
+    {
+      "id": 331,
+      "title": "Legend of Dominion",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 26,
+      "platform": "PC",
+      "releaseDate": "2015-02-06",
+      "developerId": 134,
+      "publisherId": 5
+    },
+    {
+      "id": 332,
+      "title": "Final Frontiers",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 17,
+      "platform": "Mobile",
+      "releaseDate": "2021-04-26",
+      "developerId": 131,
+      "publisherId": 111
+    },
+    {
+      "id": 333,
+      "title": "Final Realm Awakening",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 10,
+      "platform": "Xbox Series X",
+      "releaseDate": "1999-08-21",
+      "developerId": 145,
+      "publisherId": 118
+    },
+    {
+      "id": 334,
+      "title": "Rise of Castle",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 28,
+      "platform": "PlayStation 4",
+      "releaseDate": "2016-02-09",
+      "developerId": 159,
+      "publisherId": 2
+    },
+    {
+      "id": 335,
+      "title": "Phantom Odyssey",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 20,
+      "platform": "Multi-platform",
+      "releaseDate": "2018-02-15",
+      "developerId": 28,
+      "publisherId": 10
+    },
+    {
+      "id": 336,
+      "title": "Thunder Conquest Ultimate",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 26,
+      "platform": "PlayStation 4",
+      "releaseDate": "2024-08-03",
+      "developerId": 131,
+      "publisherId": 16
+    },
+    {
+      "id": 337,
+      "title": "Dark Hunters Revolution",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 8,
+      "platform": "PlayStation 5",
+      "releaseDate": "2004-01-20",
+      "developerId": 46,
+      "publisherId": 105
+    },
+    {
+      "id": 338,
+      "title": "Rise of Realm",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 19,
+      "platform": "PlayStation 5",
+      "releaseDate": "2007-10-25",
+      "developerId": 81,
+      "publisherId": 110
+    },
+    {
+      "id": 339,
+      "title": "Final Hunters",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 8,
+      "platform": "PlayStation 4",
+      "releaseDate": "2021-05-01",
+      "developerId": 127,
+      "publisherId": 102
+    },
+    {
+      "id": 340,
+      "title": "Shadow Heroes Destiny",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 13,
+      "platform": "Xbox Series X",
+      "releaseDate": "2008-08-15",
+      "developerId": 183,
+      "publisherId": 113
+    },
+    {
+      "id": 341,
+      "title": "Mystic Hunters Eclipse",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 25,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2023-04-17",
+      "developerId": 138,
+      "publisherId": 118
+    },
+    {
+      "id": 342,
+      "title": "Chronicles of Realm",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 6,
+      "platform": "PlayStation 4",
+      "releaseDate": "2021-12-24",
+      "developerId": 121,
+      "publisherId": 6
+    },
+    {
+      "id": 343,
+      "title": "Epic Realm Revolution",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 11,
+      "platform": "Nintendo Switch",
+      "releaseDate": "1998-07-03",
+      "developerId": 99,
+      "publisherId": 110
+    },
+    {
+      "id": 344,
+      "title": "Legend of Odyssey Unlimited",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 19,
+      "platform": "Xbox Series X",
+      "releaseDate": "2015-06-25",
+      "developerId": 69,
+      "publisherId": 102
+    },
+    {
+      "id": 345,
+      "title": "Infinite Horizons",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 9,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2022-06-25",
+      "developerId": 25,
+      "publisherId": 1
+    },
+    {
+      "id": 346,
+      "title": "Eternal Conquest",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 4,
+      "platform": "PlayStation 4",
+      "releaseDate": "1996-01-05",
+      "developerId": 175,
+      "publisherId": 12
+    },
+    {
+      "id": 347,
+      "title": "Infinite Realm Eclipse",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 17,
+      "platform": "Multi-platform",
+      "releaseDate": "1997-05-17",
+      "developerId": 92,
+      "publisherId": 102
+    },
+    {
+      "id": 348,
+      "title": "Mystic Dragons Prophecy",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 2,
+      "platform": "Xbox Series X",
+      "releaseDate": "2007-11-09",
+      "developerId": 47,
+      "publisherId": 101
+    },
+    {
+      "id": 349,
+      "title": "Eternal Horizons Legacy",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 6,
+      "platform": "PlayStation 5",
+      "releaseDate": "2018-05-27",
+      "developerId": 153,
+      "publisherId": 11
+    },
+    {
+      "id": 350,
+      "title": "Iron Frontiers Unlimited",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 28,
+      "platform": "Xbox Series X",
+      "releaseDate": "2021-07-07",
+      "developerId": 126,
+      "publisherId": 5
+    },
+    {
+      "id": 351,
+      "title": "Sacred Odyssey Zero",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 12,
+      "platform": "PC",
+      "releaseDate": "1999-01-10",
+      "developerId": 55,
+      "publisherId": 18
+    },
+    {
+      "id": 352,
+      "title": "Final Dominion",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 9,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2014-11-03",
+      "developerId": 186,
+      "publisherId": 10
+    },
+    {
+      "id": 353,
+      "title": "Iron Hunters",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 19,
+      "platform": "Multi-platform",
+      "releaseDate": "2010-05-17",
+      "developerId": 142,
+      "publisherId": 115
+    },
+    {
+      "id": 354,
+      "title": "Epic Knights Reborn",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 23,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2007-07-11",
+      "developerId": 197,
+      "publisherId": 20
+    },
+    {
+      "id": 355,
+      "title": "Neo World Awakening",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 19,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2008-10-04",
+      "developerId": 93,
+      "publisherId": 16
+    },
+    {
+      "id": 356,
+      "title": "Infinite Knights",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 1,
+      "platform": "PlayStation 4",
+      "releaseDate": "2006-01-15",
+      "developerId": 87,
+      "publisherId": 5
+    },
+    {
+      "id": 357,
+      "title": "Shadow Knights Reborn",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 28,
+      "platform": "PC",
+      "releaseDate": "2014-01-24",
+      "developerId": 161,
+      "publisherId": 20
+    },
+    {
+      "id": 358,
+      "title": "Shadow Warriors",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 30,
+      "platform": "PC",
+      "releaseDate": "1995-09-21",
+      "developerId": 156,
+      "publisherId": 14
+    },
+    {
+      "id": 359,
+      "title": "Neo Kingdoms",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 22,
+      "platform": "PlayStation 5",
+      "releaseDate": "2003-06-02",
+      "developerId": 43,
+      "publisherId": 101
+    },
+    {
+      "id": 360,
+      "title": "Eternal Titans Revolution",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 24,
+      "platform": "Multi-platform",
+      "releaseDate": "2002-03-20",
+      "developerId": 85,
+      "publisherId": 104
+    },
+    {
+      "id": 361,
+      "title": "Tales of Dominion Unlimited",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 7,
+      "platform": "PC",
+      "releaseDate": "2024-04-20",
+      "developerId": 23,
+      "publisherId": 119
+    },
+    {
+      "id": 362,
+      "title": "Final Galaxy Ultimate",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 4,
+      "platform": "PC",
+      "releaseDate": "2024-06-23",
+      "developerId": 49,
+      "publisherId": 7
+    },
+    {
+      "id": 363,
+      "title": "Chronicles of Conquest Origins",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 10,
+      "platform": "PC",
+      "releaseDate": "2001-12-24",
+      "developerId": 181,
+      "publisherId": 2
+    },
+    {
+      "id": 364,
+      "title": "Sacred World Ascension",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 28,
+      "platform": "Mobile",
+      "releaseDate": "2014-04-11",
+      "developerId": 91,
+      "publisherId": 115
+    },
+    {
+      "id": 365,
+      "title": "Dark Frontiers Eclipse",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 13,
+      "platform": "Xbox Series X",
+      "releaseDate": "2003-02-07",
+      "developerId": 157,
+      "publisherId": 12
+    },
+    {
+      "id": 366,
+      "title": "Crystal Titans",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 1,
+      "platform": "PC",
+      "releaseDate": "2020-02-13",
+      "developerId": 168,
+      "publisherId": 104
+    },
+    {
+      "id": 367,
+      "title": "Cyber Legacy Awakening",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 21,
+      "platform": "Xbox Series X",
+      "releaseDate": "1997-05-23",
+      "developerId": 41,
+      "publisherId": 12
+    },
+    {
+      "id": 368,
+      "title": "Star Hunters Resurrection",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 24,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2018-03-05",
+      "developerId": 30,
+      "publisherId": 107
+    },
+    {
+      "id": 369,
+      "title": "Neo Warriors",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 22,
+      "platform": "Mobile",
+      "releaseDate": "1998-07-16",
+      "developerId": 156,
+      "publisherId": 109
+    },
+    {
+      "id": 370,
+      "title": "Phantom Knights Revolution",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 5,
+      "platform": "Multi-platform",
+      "releaseDate": "2019-11-09",
+      "developerId": 196,
+      "publisherId": 8
+    },
+    {
+      "id": 371,
+      "title": "Final Quest Origins",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 12,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2014-05-07",
+      "developerId": 76,
+      "publisherId": 119
+    },
+    {
+      "id": 372,
+      "title": "Final Titans Ultimate",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 17,
+      "platform": "Multi-platform",
+      "releaseDate": "2024-01-24",
+      "developerId": 30,
+      "publisherId": 20
+    },
+    {
+      "id": 373,
+      "title": "Tales of Titans",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 25,
+      "platform": "Mobile",
+      "releaseDate": "2014-06-13",
+      "developerId": 26,
+      "publisherId": 17
+    },
+    {
+      "id": 374,
+      "title": "Star Realm Zero",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 17,
+      "platform": "PlayStation 5",
+      "releaseDate": "2012-12-14",
+      "developerId": 68,
+      "publisherId": 120
+    },
+    {
+      "id": 375,
+      "title": "Chronicles of Knights",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 7,
+      "platform": "Mobile",
+      "releaseDate": "1998-01-18",
+      "developerId": 61,
+      "publisherId": 19
+    },
+    {
+      "id": 376,
+      "title": "Neo Kingdoms Ultimate",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 23,
+      "platform": "Xbox Series X",
+      "releaseDate": "2010-02-08",
+      "developerId": 23,
+      "publisherId": 114
+    },
+    {
+      "id": 377,
+      "title": "Thunder Knights",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 29,
+      "platform": "Multi-platform",
+      "releaseDate": "2018-07-17",
+      "developerId": 32,
+      "publisherId": 117
+    },
+    {
+      "id": 378,
+      "title": "Chronicles of Dominion",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 16,
+      "platform": "PlayStation 4",
+      "releaseDate": "2021-06-07",
+      "developerId": 175,
+      "publisherId": 109
+    },
+    {
+      "id": 379,
+      "title": "Legend of Realm",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 13,
+      "platform": "Multi-platform",
+      "releaseDate": "2018-01-04",
+      "developerId": 155,
+      "publisherId": 110
+    },
+    {
+      "id": 380,
+      "title": "Rise of Odyssey Saga",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 20,
+      "platform": "Mobile",
+      "releaseDate": "2009-11-26",
+      "developerId": 87,
+      "publisherId": 12
+    },
+    {
+      "id": 381,
+      "title": "Crystal Dragons",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 19,
+      "platform": "PC",
+      "releaseDate": "1999-08-12",
+      "developerId": 24,
+      "publisherId": 110
+    },
+    {
+      "id": 382,
+      "title": "Shadow Castle",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 11,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2000-04-05",
+      "developerId": 35,
+      "publisherId": 11
+    },
+    {
+      "id": 383,
+      "title": "Star Dominion",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 18,
+      "platform": "Mobile",
+      "releaseDate": "2018-09-04",
+      "developerId": 57,
+      "publisherId": 116
+    },
+    {
+      "id": 384,
+      "title": "Phantom Horizons",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 10,
+      "platform": "Multi-platform",
+      "releaseDate": "1995-05-27",
+      "developerId": 68,
+      "publisherId": 117
+    },
+    {
+      "id": 385,
+      "title": "Neo Empire Eclipse",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 26,
+      "platform": "PlayStation 4",
+      "releaseDate": "2020-05-03",
+      "developerId": 137,
+      "publisherId": 102
+    },
+    {
+      "id": 386,
+      "title": "Chronicles of Empire Ultimate",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 13,
+      "platform": "PlayStation 5",
+      "releaseDate": "1999-04-21",
+      "developerId": 188,
+      "publisherId": 115
+    },
+    {
+      "id": 387,
+      "title": "Star Conquest",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 19,
+      "platform": "PlayStation 4",
+      "releaseDate": "1995-09-24",
+      "developerId": 165,
+      "publisherId": 6
+    },
+    {
+      "id": 388,
+      "title": "Final Legends",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 21,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2000-06-26",
+      "developerId": 160,
+      "publisherId": 117
+    },
+    {
+      "id": 389,
+      "title": "Rise of World Awakening",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 18,
+      "platform": "PC",
+      "releaseDate": "2023-05-05",
+      "developerId": 59,
+      "publisherId": 5
+    },
+    {
+      "id": 390,
+      "title": "Dark Knights",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 12,
+      "platform": "Multi-platform",
+      "releaseDate": "2016-04-07",
+      "developerId": 156,
+      "publisherId": 114
+    },
+    {
+      "id": 391,
+      "title": "Phantom Castle",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 28,
+      "platform": "PlayStation 4",
+      "releaseDate": "2012-01-27",
+      "developerId": 140,
+      "publisherId": 8
+    },
+    {
+      "id": 392,
+      "title": "Iron Titans Resurrection",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 9,
+      "platform": "Xbox Series X",
+      "releaseDate": "2008-02-15",
+      "developerId": 171,
+      "publisherId": 113
+    },
+    {
+      "id": 393,
+      "title": "Sacred Legacy Awakening",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 11,
+      "platform": "PC",
+      "releaseDate": "1995-06-10",
+      "developerId": 144,
+      "publisherId": 103
+    },
+    {
+      "id": 394,
+      "title": "Thunder Dominion",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 22,
+      "platform": "PC",
+      "releaseDate": "2008-04-17",
+      "developerId": 87,
+      "publisherId": 120
+    },
+    {
+      "id": 395,
+      "title": "Star Horizons",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 11,
+      "platform": "PlayStation 5",
+      "releaseDate": "2018-09-10",
+      "developerId": 134,
+      "publisherId": 12
+    },
+    {
+      "id": 396,
+      "title": "Infinite Realm Unlimited",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 11,
+      "platform": "PlayStation 5",
+      "releaseDate": "2013-07-11",
+      "developerId": 148,
+      "publisherId": 107
+    },
+    {
+      "id": 397,
+      "title": "Thunder Hunters",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "2006-02-06",
+      "developerId": 179,
+      "publisherId": 106
+    },
+    {
+      "id": 398,
+      "title": "Dark Titans Origins",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 3,
+      "platform": "PlayStation 4",
+      "releaseDate": "1998-09-15",
+      "developerId": 161,
+      "publisherId": 112
+    },
+    {
+      "id": 399,
+      "title": "Star Conquest Ascension",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 24,
+      "platform": "Multi-platform",
+      "releaseDate": "1995-11-18",
+      "developerId": 142,
+      "publisherId": 20
+    },
+    {
+      "id": 400,
+      "title": "Sacred Horizons Chronicles",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 29,
+      "platform": "Multi-platform",
+      "releaseDate": "2005-05-02",
+      "developerId": 148,
+      "publisherId": 108
+    },
+    {
+      "id": 401,
+      "title": "Lost Legends Destiny",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 30,
+      "platform": "PlayStation 5",
+      "releaseDate": "2023-07-21",
+      "developerId": 137,
+      "publisherId": 115
+    },
+    {
+      "id": 402,
+      "title": "Legend of Frontiers",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 7,
+      "platform": "Multi-platform",
+      "releaseDate": "2009-10-16",
+      "developerId": 177,
+      "publisherId": 110
+    },
+    {
+      "id": 403,
+      "title": "Shadow Warriors Zero",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 20,
+      "platform": "PC",
+      "releaseDate": "1999-02-16",
+      "developerId": 124,
+      "publisherId": 1
+    },
+    {
+      "id": 404,
+      "title": "Cyber Frontiers Reborn",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 12,
+      "platform": "Multi-platform",
+      "releaseDate": "2020-10-24",
+      "developerId": 153,
+      "publisherId": 18
+    },
+    {
+      "id": 405,
+      "title": "Thunder Conquest",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 15,
+      "platform": "PlayStation 5",
+      "releaseDate": "2009-05-20",
+      "developerId": 34,
+      "publisherId": 104
+    },
+    {
+      "id": 406,
+      "title": "Shadow Empire Ultimate",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 28,
+      "platform": "Xbox Series X",
+      "releaseDate": "2003-03-25",
+      "developerId": 123,
+      "publisherId": 3
+    },
+    {
+      "id": 407,
+      "title": "Rise of Galaxy Eclipse",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 6,
+      "platform": "Multi-platform",
+      "releaseDate": "2007-06-22",
+      "developerId": 29,
+      "publisherId": 14
+    },
+    {
+      "id": 408,
+      "title": "Neo Conquest Prophecy",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 11,
+      "platform": "Multi-platform",
+      "releaseDate": "2010-05-04",
+      "developerId": 178,
+      "publisherId": 10
+    },
+    {
+      "id": 409,
+      "title": "Rise of Legacy",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 17,
+      "platform": "Multi-platform",
+      "releaseDate": "2017-11-10",
+      "developerId": 52,
+      "publisherId": 108
+    },
+    {
+      "id": 410,
+      "title": "Mystic Legends",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 30,
+      "platform": "Mobile",
+      "releaseDate": "1996-06-11",
+      "developerId": 100,
+      "publisherId": 109
+    },
+    {
+      "id": 411,
+      "title": "Legend of Conquest Legacy",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 20,
+      "platform": "Mobile",
+      "releaseDate": "2020-08-15",
+      "developerId": 190,
+      "publisherId": 103
+    },
+    {
+      "id": 412,
+      "title": "Sacred Dominion Reborn",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 23,
+      "platform": "Mobile",
+      "releaseDate": "2008-12-22",
+      "developerId": 74,
+      "publisherId": 18
+    },
+    {
+      "id": 413,
+      "title": "Neo Castle Chronicles",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 5,
+      "platform": "PlayStation 4",
+      "releaseDate": "2009-04-19",
+      "developerId": 90,
+      "publisherId": 17
+    },
+    {
+      "id": 414,
+      "title": "Eternal Odyssey",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 16,
+      "platform": "PlayStation 4",
+      "releaseDate": "1995-11-20",
+      "developerId": 82,
+      "publisherId": 10
+    },
+    {
+      "id": 415,
+      "title": "Legend of Quest",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 1,
+      "platform": "Xbox Series X",
+      "releaseDate": "1997-11-03",
+      "developerId": 168,
+      "publisherId": 10
+    },
+    {
+      "id": 416,
+      "title": "Lost Galaxy Ultimate",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 6,
+      "platform": "Multi-platform",
+      "releaseDate": "2011-06-08",
+      "developerId": 171,
+      "publisherId": 113
+    },
+    {
+      "id": 417,
+      "title": "Crystal Conquest",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 27,
+      "platform": "PlayStation 5",
+      "releaseDate": "2013-08-06",
+      "developerId": 187,
+      "publisherId": 106
+    },
+    {
+      "id": 418,
+      "title": "Crystal Dragons Unlimited",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 19,
+      "platform": "Multi-platform",
+      "releaseDate": "2011-02-02",
+      "developerId": 75,
+      "publisherId": 7
+    },
+    {
+      "id": 419,
+      "title": "Neo Legends Saga",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 4,
+      "platform": "PlayStation 4",
+      "releaseDate": "1998-11-01",
+      "developerId": 133,
+      "publisherId": 11
+    },
+    {
+      "id": 420,
+      "title": "Infinite Hunters Ascension",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 23,
+      "platform": "Multi-platform",
+      "releaseDate": "2011-05-07",
+      "developerId": 156,
+      "publisherId": 110
+    },
+    {
+      "id": 421,
+      "title": "Dark Warriors Saga",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 29,
+      "platform": "PlayStation 4",
+      "releaseDate": "2002-02-22",
+      "developerId": 148,
+      "publisherId": 7
+    },
+    {
+      "id": 422,
+      "title": "Neo Heroes",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 11,
+      "platform": "Multi-platform",
+      "releaseDate": "2002-12-28",
+      "developerId": 165,
+      "publisherId": 16
+    },
+    {
+      "id": 423,
+      "title": "Legend of Warriors",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 13,
+      "platform": "Multi-platform",
+      "releaseDate": "2011-10-18",
+      "developerId": 96,
+      "publisherId": 11
+    },
+    {
+      "id": 424,
+      "title": "Sacred Dragons",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 30,
+      "platform": "PlayStation 4",
+      "releaseDate": "2009-05-22",
+      "developerId": 121,
+      "publisherId": 17
+    },
+    {
+      "id": 425,
+      "title": "Tales of Heroes",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 4,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2000-03-18",
+      "developerId": 176,
+      "publisherId": 107
+    },
+    {
+      "id": 426,
+      "title": "Tales of Knights Unlimited",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 11,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2016-06-01",
+      "developerId": 54,
+      "publisherId": 3
+    },
+    {
+      "id": 427,
+      "title": "Sacred Warriors Destiny",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 25,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-02-14",
+      "developerId": 150,
+      "publisherId": 8
+    },
+    {
+      "id": 428,
+      "title": "Thunder Kingdoms",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "2008-02-25",
+      "developerId": 139,
+      "publisherId": 8
+    },
+    {
+      "id": 429,
+      "title": "Final Hunters Resurrection",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 27,
+      "platform": "Mobile",
+      "releaseDate": "1996-03-14",
+      "developerId": 192,
+      "publisherId": 111
+    },
+    {
+      "id": 430,
+      "title": "Legend of Galaxy",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 3,
+      "platform": "PlayStation 4",
+      "releaseDate": "2017-09-03",
+      "developerId": 78,
+      "publisherId": 6
+    },
+    {
+      "id": 431,
+      "title": "Crystal Warriors Awakening",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 4,
+      "platform": "PC",
+      "releaseDate": "2000-12-01",
+      "developerId": 193,
+      "publisherId": 8
+    },
+    {
+      "id": 432,
+      "title": "Lost Kingdoms Reborn",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 19,
+      "platform": "Xbox Series X",
+      "releaseDate": "2006-02-21",
+      "developerId": 125,
+      "publisherId": 112
+    },
+    {
+      "id": 433,
+      "title": "Iron Realm Chronicles",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 4,
+      "platform": "Mobile",
+      "releaseDate": "2021-06-16",
+      "developerId": 141,
+      "publisherId": 113
+    },
+    {
+      "id": 434,
+      "title": "Neo Quest",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 21,
+      "platform": "Multi-platform",
+      "releaseDate": "1995-02-08",
+      "developerId": 155,
+      "publisherId": 2
+    },
+    {
+      "id": 435,
+      "title": "Legend of Odyssey",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 25,
+      "platform": "PlayStation 4",
+      "releaseDate": "2012-12-28",
+      "developerId": 164,
+      "publisherId": 111
+    },
+    {
+      "id": 436,
+      "title": "Legend of Dragons Ultimate",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 18,
+      "platform": "PlayStation 5",
+      "releaseDate": "2012-01-18",
+      "developerId": 177,
+      "publisherId": 17
+    },
+    {
+      "id": 437,
+      "title": "Iron Galaxy Revolution",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 1,
+      "platform": "Multi-platform",
+      "releaseDate": "2005-09-15",
+      "developerId": 24,
+      "publisherId": 18
+    },
+    {
+      "id": 438,
+      "title": "Iron World",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 1,
+      "platform": "Mobile",
+      "releaseDate": "2006-07-06",
+      "developerId": 59,
+      "publisherId": 5
+    },
+    {
+      "id": 439,
+      "title": "Crystal Legacy Reborn",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 18,
+      "platform": "Mobile",
+      "releaseDate": "2013-06-01",
+      "developerId": 78,
+      "publisherId": 9
+    },
+    {
+      "id": 440,
+      "title": "Thunder Legends",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 6,
+      "platform": "Multi-platform",
+      "releaseDate": "2003-10-08",
+      "developerId": 55,
+      "publisherId": 106
+    },
+    {
+      "id": 441,
+      "title": "Crystal Kingdoms Revolution",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 15,
+      "platform": "PC",
+      "releaseDate": "2021-10-06",
+      "developerId": 170,
+      "publisherId": 17
+    },
+    {
+      "id": 442,
+      "title": "Rise of Empire Origins",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 20,
+      "platform": "Xbox Series X",
+      "releaseDate": "2002-01-19",
+      "developerId": 32,
+      "publisherId": 105
+    },
+    {
+      "id": 443,
+      "title": "Epic Knights",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 30,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2022-11-26",
+      "developerId": 26,
+      "publisherId": 4
+    },
+    {
+      "id": 444,
+      "title": "Cyber Titans Zero",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 9,
+      "platform": "Multi-platform",
+      "releaseDate": "2020-10-15",
+      "developerId": 74,
+      "publisherId": 119
+    },
+    {
+      "id": 445,
+      "title": "Rise of Heroes Resurrection",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 6,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2007-10-03",
+      "developerId": 36,
+      "publisherId": 3
+    },
+    {
+      "id": 446,
+      "title": "Iron Warriors",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 14,
+      "platform": "Nintendo Switch",
+      "releaseDate": "1999-11-22",
+      "developerId": 98,
+      "publisherId": 7
+    },
+    {
+      "id": 447,
+      "title": "Mystic Warriors Zero",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 3,
+      "platform": "Xbox Series X",
+      "releaseDate": "1999-03-26",
+      "developerId": 169,
+      "publisherId": 4
+    },
+    {
+      "id": 448,
+      "title": "Star Warriors Saga",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 14,
+      "platform": "PlayStation 5",
+      "releaseDate": "2010-12-14",
+      "developerId": 181,
+      "publisherId": 116
+    },
+    {
+      "id": 449,
+      "title": "Thunder Dragons",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 9,
+      "platform": "PC",
+      "releaseDate": "2006-04-07",
+      "developerId": 185,
+      "publisherId": 110
+    },
+    {
+      "id": 450,
+      "title": "Cyber Hunters Eclipse",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 9,
+      "platform": "PlayStation 4",
+      "releaseDate": "2010-11-12",
+      "developerId": 199,
+      "publisherId": 15
+    },
+    {
+      "id": 451,
+      "title": "Iron Realm",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 8,
+      "platform": "Mobile",
+      "releaseDate": "2009-12-12",
+      "developerId": 134,
+      "publisherId": 18
+    },
+    {
+      "id": 452,
+      "title": "Sacred Castle",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 8,
+      "platform": "Xbox Series X",
+      "releaseDate": "2006-01-05",
+      "developerId": 43,
+      "publisherId": 103
+    },
+    {
+      "id": 453,
+      "title": "Cyber Castle Ultimate",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 9,
+      "platform": "PC",
+      "releaseDate": "1998-02-28",
+      "developerId": 87,
+      "publisherId": 117
+    },
+    {
+      "id": 454,
+      "title": "Chronicles of Legends Revolution",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 24,
+      "platform": "Mobile",
+      "releaseDate": "2003-10-21",
+      "developerId": 45,
+      "publisherId": 116
+    },
+    {
+      "id": 455,
+      "title": "Phantom Legacy",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 6,
+      "platform": "Multi-platform",
+      "releaseDate": "2003-05-10",
+      "developerId": 137,
+      "publisherId": 116
+    },
+    {
+      "id": 456,
+      "title": "Iron Hunters Awakening",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 12,
+      "platform": "PC",
+      "releaseDate": "2004-08-21",
+      "developerId": 121,
+      "publisherId": 103
+    },
+    {
+      "id": 457,
+      "title": "Thunder Legends Chronicles",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 24,
+      "platform": "Xbox Series X",
+      "releaseDate": "1996-04-17",
+      "developerId": 67,
+      "publisherId": 118
+    },
+    {
+      "id": 458,
+      "title": "Shadow Dominion",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 28,
+      "platform": "PlayStation 4",
+      "releaseDate": "2006-04-08",
+      "developerId": 36,
+      "publisherId": 105
+    },
+    {
+      "id": 459,
+      "title": "Chronicles of Galaxy Destiny",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 4,
+      "platform": "PlayStation 5",
+      "releaseDate": "2007-02-16",
+      "developerId": 133,
+      "publisherId": 2
+    },
+    {
+      "id": 460,
+      "title": "Star Legends",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 11,
+      "platform": "PC",
+      "releaseDate": "2000-01-19",
+      "developerId": 147,
+      "publisherId": 17
+    },
+    {
+      "id": 461,
+      "title": "Cyber Dragons Legacy",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 18,
+      "platform": "PC",
+      "releaseDate": "2013-07-17",
+      "developerId": 75,
+      "publisherId": 104
+    },
+    {
+      "id": 462,
+      "title": "Dark Horizons",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 12,
+      "platform": "Mobile",
+      "releaseDate": "2008-05-27",
+      "developerId": 138,
+      "publisherId": 19
+    },
+    {
+      "id": 463,
+      "title": "Crystal Heroes Zero",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 19,
+      "platform": "Nintendo Switch",
+      "releaseDate": "1995-11-18",
+      "developerId": 99,
+      "publisherId": 3
+    },
+    {
+      "id": 464,
+      "title": "Phantom Knights Saga",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 9,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2008-03-23",
+      "developerId": 123,
+      "publisherId": 108
+    },
+    {
+      "id": 465,
+      "title": "Chronicles of World",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 6,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2017-09-08",
+      "developerId": 52,
+      "publisherId": 7
+    },
+    {
+      "id": 466,
+      "title": "Final Heroes",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 22,
+      "platform": "Mobile",
+      "releaseDate": "2017-06-24",
+      "developerId": 65,
+      "publisherId": 107
+    },
+    {
+      "id": 467,
+      "title": "Rise of World",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 18,
+      "platform": "PlayStation 5",
+      "releaseDate": "2015-06-18",
+      "developerId": 161,
+      "publisherId": 108
+    },
+    {
+      "id": 468,
+      "title": "Infinite Kingdoms",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 10,
+      "platform": "PC",
+      "releaseDate": "2008-08-04",
+      "developerId": 142,
+      "publisherId": 18
+    },
+    {
+      "id": 469,
+      "title": "Eternal Kingdoms Resurrection",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 12,
+      "platform": "Xbox Series X",
+      "releaseDate": "2007-10-07",
+      "developerId": 63,
+      "publisherId": 102
+    },
+    {
+      "id": 470,
+      "title": "Crystal Dominion",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 25,
+      "platform": "Mobile",
+      "releaseDate": "2011-12-02",
+      "developerId": 45,
+      "publisherId": 120
+    },
+    {
+      "id": 471,
+      "title": "Rise of Dragons",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 4,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2006-09-04",
+      "developerId": 153,
+      "publisherId": 12
+    },
+    {
+      "id": 472,
+      "title": "Neo Dominion",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 20,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2006-07-22",
+      "developerId": 49,
+      "publisherId": 13
+    },
+    {
+      "id": 473,
+      "title": "Tales of Odyssey Origins",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 13,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2016-05-11",
+      "developerId": 147,
+      "publisherId": 113
+    },
+    {
+      "id": 474,
+      "title": "Cyber Legends Revolution",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 25,
+      "platform": "Xbox Series X",
+      "releaseDate": "2012-01-19",
+      "developerId": 73,
+      "publisherId": 118
+    },
+    {
+      "id": 475,
+      "title": "Eternal Galaxy Legacy",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 9,
+      "platform": "PC",
+      "releaseDate": "2002-06-05",
+      "developerId": 39,
+      "publisherId": 8
+    },
+    {
+      "id": 476,
+      "title": "Dark Hunters Legacy",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 9,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2002-02-16",
+      "developerId": 46,
+      "publisherId": 107
+    },
+    {
+      "id": 477,
+      "title": "Legend of Titans Zero",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 5,
+      "platform": "Xbox Series X",
+      "releaseDate": "2009-08-28",
+      "developerId": 73,
+      "publisherId": 118
+    },
+    {
+      "id": 478,
+      "title": "Legend of Legacy",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 12,
+      "platform": "PlayStation 4",
+      "releaseDate": "2016-07-14",
+      "developerId": 127,
+      "publisherId": 5
+    },
+    {
+      "id": 479,
+      "title": "Sacred Kingdoms Zero",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 15,
+      "platform": "Mobile",
+      "releaseDate": "1995-08-15",
+      "developerId": 24,
+      "publisherId": 9
+    },
+    {
+      "id": 480,
+      "title": "Iron Quest Ascension",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 20,
+      "platform": "PC",
+      "releaseDate": "2009-10-08",
+      "developerId": 33,
+      "publisherId": 109
+    },
+    {
+      "id": 481,
+      "title": "Neo Dragons",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 15,
+      "platform": "PlayStation 5",
+      "releaseDate": "2021-05-05",
+      "developerId": 149,
+      "publisherId": 19
+    },
+    {
+      "id": 482,
+      "title": "Neo World Reborn",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 19,
+      "platform": "Multi-platform",
+      "releaseDate": "2020-01-12",
+      "developerId": 160,
+      "publisherId": 16
+    },
+    {
+      "id": 483,
+      "title": "Phantom Dominion",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 16,
+      "platform": "PlayStation 5",
+      "releaseDate": "1995-04-25",
+      "developerId": 153,
+      "publisherId": 119
+    },
+    {
+      "id": 484,
+      "title": "Iron Hunters Destiny",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 9,
+      "platform": "Mobile",
+      "releaseDate": "1999-09-11",
+      "developerId": 157,
+      "publisherId": 113
+    },
+    {
+      "id": 485,
+      "title": "Infinite Legends Unlimited",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 15,
+      "platform": "PlayStation 5",
+      "releaseDate": "2003-12-19",
+      "developerId": 125,
+      "publisherId": 101
+    },
+    {
+      "id": 486,
+      "title": "Mystic World",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 8,
+      "platform": "Mobile",
+      "releaseDate": "2018-02-04",
+      "developerId": 122,
+      "publisherId": 13
+    },
+    {
+      "id": 487,
+      "title": "Chronicles of Odyssey Eclipse",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 30,
+      "platform": "PlayStation 4",
+      "releaseDate": "2012-04-09",
+      "developerId": 174,
+      "publisherId": 7
+    },
+    {
+      "id": 488,
+      "title": "Iron Legends Revolution",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 3,
+      "platform": "PlayStation 5",
+      "releaseDate": "2011-05-11",
+      "developerId": 158,
+      "publisherId": 10
+    },
+    {
+      "id": 489,
+      "title": "Mystic Warriors Revolution",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 4,
+      "platform": "Mobile",
+      "releaseDate": "2016-12-11",
+      "developerId": 163,
+      "publisherId": 1
+    },
+    {
+      "id": 490,
+      "title": "Neo Castle Destiny",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 30,
+      "platform": "PlayStation 5",
+      "releaseDate": "2017-08-05",
+      "developerId": 181,
+      "publisherId": 20
+    },
+    {
+      "id": 491,
+      "title": "Legend of Dragons Resurrection",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 5,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2010-01-02",
+      "developerId": 80,
+      "publisherId": 11
+    },
+    {
+      "id": 492,
+      "title": "Legend of Kingdoms Zero",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 24,
+      "platform": "Nintendo Switch",
+      "releaseDate": "1995-07-10",
+      "developerId": 161,
+      "publisherId": 12
+    },
+    {
+      "id": 493,
+      "title": "Shadow Conquest",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 12,
+      "platform": "Multi-platform",
+      "releaseDate": "2007-06-20",
+      "developerId": 191,
+      "publisherId": 102
+    },
+    {
+      "id": 494,
+      "title": "Star Warriors",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 27,
+      "platform": "Xbox Series X",
+      "releaseDate": "2006-10-15",
+      "developerId": 95,
+      "publisherId": 11
+    },
+    {
+      "id": 495,
+      "title": "Epic Dragons Revolution",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 5,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2019-06-01",
+      "developerId": 155,
+      "publisherId": 112
+    },
+    {
+      "id": 496,
+      "title": "Phantom Warriors Prophecy",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 7,
+      "platform": "PlayStation 4",
+      "releaseDate": "1995-04-16",
+      "developerId": 34,
+      "publisherId": 104
+    },
+    {
+      "id": 497,
+      "title": "Infinite Hunters",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 9,
+      "platform": "Multi-platform",
+      "releaseDate": "2000-11-14",
+      "developerId": 30,
+      "publisherId": 11
+    },
+    {
+      "id": 498,
+      "title": "Iron Odyssey",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 3,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2016-05-04",
+      "developerId": 88,
+      "publisherId": 113
+    },
+    {
+      "id": 499,
+      "title": "Neo Quest Legacy",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 1,
+      "platform": "PlayStation 4",
+      "releaseDate": "2005-05-19",
+      "developerId": 89,
+      "publisherId": 16
+    },
+    {
+      "id": 500,
+      "title": "Sacred Hunters",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 29,
+      "platform": "Multi-platform",
+      "releaseDate": "2014-12-20",
+      "developerId": 133,
+      "publisherId": 118
+    },
+    {
+      "id": 501,
+      "title": "Star Realm",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 19,
+      "platform": "PC",
+      "releaseDate": "2014-10-20",
+      "developerId": 23,
+      "publisherId": 111
+    },
+    {
+      "id": 502,
+      "title": "Epic Realm Unlimited",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 28,
+      "platform": "Mobile",
+      "releaseDate": "2016-04-15",
+      "developerId": 98,
+      "publisherId": 102
+    },
+    {
+      "id": 503,
+      "title": "Cyber Frontiers Origins",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 19,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2024-12-13",
+      "developerId": 52,
+      "publisherId": 15
+    },
+    {
+      "id": 504,
+      "title": "Chronicles of Hunters Saga",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 2,
+      "platform": "PlayStation 5",
+      "releaseDate": "2016-09-05",
+      "developerId": 35,
+      "publisherId": 13
+    },
+    {
+      "id": 505,
+      "title": "Neo Conquest",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 5,
+      "platform": "Xbox Series X",
+      "releaseDate": "2009-02-26",
+      "developerId": 157,
+      "publisherId": 102
+    },
+    {
+      "id": 506,
+      "title": "Cyber Empire Legacy",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 7,
+      "platform": "Multi-platform",
+      "releaseDate": "2008-03-04",
+      "developerId": 192,
+      "publisherId": 8
+    },
+    {
+      "id": 507,
+      "title": "Thunder Quest",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 3,
+      "platform": "Mobile",
+      "releaseDate": "2005-05-01",
+      "developerId": 178,
+      "publisherId": 8
+    },
+    {
+      "id": 508,
+      "title": "Crystal Realm Awakening",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 5,
+      "platform": "PlayStation 5",
+      "releaseDate": "2002-12-25",
+      "developerId": 91,
+      "publisherId": 3
+    },
+    {
+      "id": 509,
+      "title": "Shadow Titans Saga",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 4,
+      "platform": "Mobile",
+      "releaseDate": "2015-05-14",
+      "developerId": 26,
+      "publisherId": 115
+    },
+    {
+      "id": 510,
+      "title": "Chronicles of Titans Saga",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 20,
+      "platform": "PlayStation 4",
+      "releaseDate": "2021-01-16",
+      "developerId": 126,
+      "publisherId": 116
+    },
+    {
+      "id": 511,
+      "title": "Cyber Castle",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 5,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2008-09-12",
+      "developerId": 64,
+      "publisherId": 3
+    },
+    {
+      "id": 512,
+      "title": "Infinite Frontiers Ultimate",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 28,
+      "platform": "Mobile",
+      "releaseDate": "2018-06-05",
+      "developerId": 135,
+      "publisherId": 101
+    },
+    {
+      "id": 513,
+      "title": "Final Warriors Unlimited",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 12,
+      "platform": "Mobile",
+      "releaseDate": "2002-05-18",
+      "developerId": 67,
+      "publisherId": 20
+    },
+    {
+      "id": 514,
+      "title": "Phantom Odyssey Eclipse",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 10,
+      "platform": "PlayStation 5",
+      "releaseDate": "2023-11-20",
+      "developerId": 96,
+      "publisherId": 11
+    },
+    {
+      "id": 515,
+      "title": "Cyber Dragons",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 1,
+      "platform": "PC",
+      "releaseDate": "2003-12-04",
+      "developerId": 188,
+      "publisherId": 10
+    },
+    {
+      "id": 516,
+      "title": "Cyber Galaxy",
+      "description": "An innovative title pushing boundaries.",
+      "genreId": 24,
+      "platform": "Nintendo Switch",
+      "releaseDate": "2003-12-09",
+      "developerId": 138,
+      "publisherId": 101
+    },
+    {
+      "id": 517,
+      "title": "Cyber Warriors",
+      "description": "A thrilling action-packed experience.",
+      "genreId": 30,
+      "platform": "PC",
+      "releaseDate": "2015-03-22",
+      "developerId": 127,
+      "publisherId": 116
+    },
+    {
+      "id": 518,
+      "title": "Lost Warriors Zero",
+      "description": "An epic adventure through vast worlds.",
+      "genreId": 23,
+      "platform": "PC",
+      "releaseDate": "2023-04-08",
+      "developerId": 42,
+      "publisherId": 14
+    },
+    {
+      "id": 519,
+      "title": "Cyber Quest Resurrection",
+      "description": "An open-world adventure with endless possibilities.",
+      "genreId": 15,
+      "platform": "Mobile",
+      "releaseDate": "2005-11-09",
+      "developerId": 81,
+      "publisherId": 16
+    },
+    {
+      "id": 520,
+      "title": "Legend of Knights",
+      "description": "A fast-paced game with exciting combat.",
+      "genreId": 15,
+      "platform": "Xbox Series X",
+      "releaseDate": "1997-11-16",
+      "developerId": 46,
+      "publisherId": 14
+    }
+  ]
+}

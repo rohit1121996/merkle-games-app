@@ -1,0 +1,22 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gameapi-app
+    environment:
+      - NODE_ENV=development
+      - PORT=${PORT:-8000}
+    ports:
+      - "${PORT:-8000}:${PORT:-8000}"
+    volumes:
+      - ./src:/app/src
+      - ./seeders:/app/seeders
+      - ./data:/app/data
+    healthcheck:
+      test:
+        ["CMD", "sh", "-c", "curl -f http://localhost:$${PORT:-8000}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s

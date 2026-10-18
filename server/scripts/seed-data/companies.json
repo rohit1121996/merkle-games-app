@@ -1,0 +1,1404 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Electronic Arts",
+      "country": "United States",
+      "foundedYear": 1982,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 2,
+      "name": "Activision Blizzard",
+      "country": "United States",
+      "foundedYear": 1979,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 3,
+      "name": "Nintendo",
+      "country": "Japan",
+      "foundedYear": 1889,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 4,
+      "name": "Sony Interactive Entertainment",
+      "country": "Japan",
+      "foundedYear": 1993,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 5,
+      "name": "Microsoft Studios",
+      "country": "United States",
+      "foundedYear": 2000,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 6,
+      "name": "Ubisoft",
+      "country": "France",
+      "foundedYear": 1986,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 7,
+      "name": "Take-Two Interactive",
+      "country": "United States",
+      "foundedYear": 1993,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 8,
+      "name": "Square Enix",
+      "country": "Japan",
+      "foundedYear": 2003,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 9,
+      "name": "Bandai Namco Entertainment",
+      "country": "Japan",
+      "foundedYear": 2006,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 10,
+      "name": "Capcom",
+      "country": "Japan",
+      "foundedYear": 1983,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 11,
+      "name": "SEGA",
+      "country": "Japan",
+      "foundedYear": 1960,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 12,
+      "name": "2K Games",
+      "country": "United States",
+      "foundedYear": 2005,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 13,
+      "name": "Bethesda Softworks",
+      "country": "United States",
+      "foundedYear": 1986,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 14,
+      "name": "Warner Bros. Games",
+      "country": "United States",
+      "foundedYear": 2004,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 15,
+      "name": "Koch Media",
+      "country": "Germany",
+      "foundedYear": 1994,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 16,
+      "name": "Focus Entertainment",
+      "country": "France",
+      "foundedYear": 1996,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 17,
+      "name": "Paradox Interactive",
+      "country": "Sweden",
+      "foundedYear": 1999,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 18,
+      "name": "Devolver Digital",
+      "country": "United States",
+      "foundedYear": 2009,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 19,
+      "name": "CD Projekt",
+      "country": "Poland",
+      "foundedYear": 1994,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 20,
+      "name": "Team17",
+      "country": "United Kingdom",
+      "foundedYear": 1990,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 21,
+      "name": "Naughty Dog",
+      "country": "United States",
+      "foundedYear": 1984,
+      "companyType": "Developer"
+    },
+    {
+      "id": 22,
+      "name": "Rockstar Games",
+      "country": "United States",
+      "foundedYear": 1998,
+      "companyType": "Developer"
+    },
+    {
+      "id": 23,
+      "name": "Valve Corporation",
+      "country": "United States",
+      "foundedYear": 1996,
+      "companyType": "Developer"
+    },
+    {
+      "id": 24,
+      "name": "Epic Games",
+      "country": "United States",
+      "foundedYear": 1991,
+      "companyType": "Developer"
+    },
+    {
+      "id": 25,
+      "name": "BioWare",
+      "country": "Canada",
+      "foundedYear": 1995,
+      "companyType": "Developer"
+    },
+    {
+      "id": 26,
+      "name": "Bungie",
+      "country": "United States",
+      "foundedYear": 1991,
+      "companyType": "Developer"
+    },
+    {
+      "id": 27,
+      "name": "Insomniac Games",
+      "country": "United States",
+      "foundedYear": 1994,
+      "companyType": "Developer"
+    },
+    {
+      "id": 28,
+      "name": "Santa Monica Studio",
+      "country": "United States",
+      "foundedYear": 1999,
+      "companyType": "Developer"
+    },
+    {
+      "id": 29,
+      "name": "Game Freak",
+      "country": "Japan",
+      "foundedYear": 1989,
+      "companyType": "Developer"
+    },
+    {
+      "id": 30,
+      "name": "FromSoftware",
+      "country": "Japan",
+      "foundedYear": 1986,
+      "companyType": "Developer"
+    },
+    {
+      "id": 31,
+      "name": "Platinum Games",
+      "country": "Japan",
+      "foundedYear": 2007,
+      "companyType": "Developer"
+    },
+    {
+      "id": 32,
+      "name": "Arc System Works",
+      "country": "Japan",
+      "foundedYear": 1988,
+      "companyType": "Developer"
+    },
+    {
+      "id": 33,
+      "name": "Kojima Productions",
+      "country": "Japan",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 34,
+      "name": "Atlus",
+      "country": "Japan",
+      "foundedYear": 1986,
+      "companyType": "Developer"
+    },
+    {
+      "id": 35,
+      "name": "Level-5",
+      "country": "Japan",
+      "foundedYear": 1998,
+      "companyType": "Developer"
+    },
+    {
+      "id": 36,
+      "name": "CyberConnect2",
+      "country": "Japan",
+      "foundedYear": 1996,
+      "companyType": "Developer"
+    },
+    {
+      "id": 37,
+      "name": "Polyphony Digital",
+      "country": "Japan",
+      "foundedYear": 1998,
+      "companyType": "Developer"
+    },
+    {
+      "id": 38,
+      "name": "Team Ninja",
+      "country": "Japan",
+      "foundedYear": 1995,
+      "companyType": "Developer"
+    },
+    {
+      "id": 39,
+      "name": "Guerrilla Games",
+      "country": "Netherlands",
+      "foundedYear": 2000,
+      "companyType": "Developer"
+    },
+    {
+      "id": 40,
+      "name": "Remedy Entertainment",
+      "country": "Finland",
+      "foundedYear": 1995,
+      "companyType": "Developer"
+    },
+    {
+      "id": 41,
+      "name": "IO Interactive",
+      "country": "Denmark",
+      "foundedYear": 1998,
+      "companyType": "Developer"
+    },
+    {
+      "id": 42,
+      "name": "DICE",
+      "country": "Sweden",
+      "foundedYear": 1992,
+      "companyType": "Developer"
+    },
+    {
+      "id": 43,
+      "name": "Machine Games",
+      "country": "Sweden",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 44,
+      "name": "Mojang Studios",
+      "country": "Sweden",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 45,
+      "name": "Avalanche Studios",
+      "country": "Sweden",
+      "foundedYear": 2003,
+      "companyType": "Developer"
+    },
+    {
+      "id": 46,
+      "name": "Coffee Stain Studios",
+      "country": "Sweden",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 47,
+      "name": "Paradox Development Studio",
+      "country": "Sweden",
+      "foundedYear": 1995,
+      "companyType": "Developer"
+    },
+    {
+      "id": 48,
+      "name": "CD Projekt RED",
+      "country": "Poland",
+      "foundedYear": 2002,
+      "companyType": "Developer"
+    },
+    {
+      "id": 49,
+      "name": "Techland",
+      "country": "Poland",
+      "foundedYear": 1991,
+      "companyType": "Developer"
+    },
+    {
+      "id": 50,
+      "name": "11 bit studios",
+      "country": "Poland",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 51,
+      "name": "Flying Wild Hog",
+      "country": "Poland",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 52,
+      "name": "The Farm 51",
+      "country": "Poland",
+      "foundedYear": 2005,
+      "companyType": "Developer"
+    },
+    {
+      "id": 53,
+      "name": "Dontnod Entertainment",
+      "country": "France",
+      "foundedYear": 2008,
+      "companyType": "Developer"
+    },
+    {
+      "id": 54,
+      "name": "Arkane Studios",
+      "country": "France",
+      "foundedYear": 1999,
+      "companyType": "Developer"
+    },
+    {
+      "id": 55,
+      "name": "Quantic Dream",
+      "country": "France",
+      "foundedYear": 1997,
+      "companyType": "Developer"
+    },
+    {
+      "id": 56,
+      "name": "Asobo Studio",
+      "country": "France",
+      "foundedYear": 2002,
+      "companyType": "Developer"
+    },
+    {
+      "id": 57,
+      "name": "Spiders",
+      "country": "France",
+      "foundedYear": 2008,
+      "companyType": "Developer"
+    },
+    {
+      "id": 58,
+      "name": "Deck13 Interactive",
+      "country": "Germany",
+      "foundedYear": 2001,
+      "companyType": "Developer"
+    },
+    {
+      "id": 59,
+      "name": "Piranha Bytes",
+      "country": "Germany",
+      "foundedYear": 1997,
+      "companyType": "Developer"
+    },
+    {
+      "id": 60,
+      "name": "Crytek",
+      "country": "Germany",
+      "foundedYear": 1999,
+      "companyType": "Developer"
+    },
+    {
+      "id": 61,
+      "name": "Yager Development",
+      "country": "Germany",
+      "foundedYear": 1999,
+      "companyType": "Developer"
+    },
+    {
+      "id": 62,
+      "name": "Rocksteady Studios",
+      "country": "United Kingdom",
+      "foundedYear": 2004,
+      "companyType": "Developer"
+    },
+    {
+      "id": 63,
+      "name": "Creative Assembly",
+      "country": "United Kingdom",
+      "foundedYear": 1987,
+      "companyType": "Developer"
+    },
+    {
+      "id": 64,
+      "name": "Rare",
+      "country": "United Kingdom",
+      "foundedYear": 1985,
+      "companyType": "Developer"
+    },
+    {
+      "id": 65,
+      "name": "Media Molecule",
+      "country": "United Kingdom",
+      "foundedYear": 2006,
+      "companyType": "Developer"
+    },
+    {
+      "id": 66,
+      "name": "Playground Games",
+      "country": "United Kingdom",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 67,
+      "name": "Codemasters",
+      "country": "United Kingdom",
+      "foundedYear": 1986,
+      "companyType": "Developer"
+    },
+    {
+      "id": 68,
+      "name": "Supermassive Games",
+      "country": "United Kingdom",
+      "foundedYear": 2008,
+      "companyType": "Developer"
+    },
+    {
+      "id": 69,
+      "name": "Digital Extremes",
+      "country": "Canada",
+      "foundedYear": 1993,
+      "companyType": "Developer"
+    },
+    {
+      "id": 70,
+      "name": "Ubisoft Montreal",
+      "country": "Canada",
+      "foundedYear": 1997,
+      "companyType": "Developer"
+    },
+    {
+      "id": 71,
+      "name": "Red Barrels",
+      "country": "Canada",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 72,
+      "name": "Behaviour Interactive",
+      "country": "Canada",
+      "foundedYear": 1992,
+      "companyType": "Developer"
+    },
+    {
+      "id": 73,
+      "name": "Moon Studios",
+      "country": "Austria",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 74,
+      "name": "Larian Studios",
+      "country": "Belgium",
+      "foundedYear": 1996,
+      "companyType": "Developer"
+    },
+    {
+      "id": 75,
+      "name": "NCSoft",
+      "country": "South Korea",
+      "foundedYear": 1997,
+      "companyType": "Developer"
+    },
+    {
+      "id": 76,
+      "name": "Pearl Abyss",
+      "country": "South Korea",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 77,
+      "name": "Shift Up",
+      "country": "South Korea",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 78,
+      "name": "miHoYo",
+      "country": "China",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 79,
+      "name": "NetEase Games",
+      "country": "China",
+      "foundedYear": 1997,
+      "companyType": "Developer"
+    },
+    {
+      "id": 80,
+      "name": "Tencent Games",
+      "country": "China",
+      "foundedYear": 2003,
+      "companyType": "Developer"
+    },
+    {
+      "id": 81,
+      "name": "4A Games",
+      "country": "Ukraine",
+      "foundedYear": 2005,
+      "companyType": "Developer"
+    },
+    {
+      "id": 82,
+      "name": "GSC Game World",
+      "country": "Ukraine",
+      "foundedYear": 1995,
+      "companyType": "Developer"
+    },
+    {
+      "id": 83,
+      "name": "Obsidian Entertainment",
+      "country": "United States",
+      "foundedYear": 2003,
+      "companyType": "Developer"
+    },
+    {
+      "id": 84,
+      "name": "InXile Entertainment",
+      "country": "United States",
+      "foundedYear": 2002,
+      "companyType": "Developer"
+    },
+    {
+      "id": 85,
+      "name": "Double Fine Productions",
+      "country": "United States",
+      "foundedYear": 2000,
+      "companyType": "Developer"
+    },
+    {
+      "id": 86,
+      "name": "Respawn Entertainment",
+      "country": "United States",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 87,
+      "name": "343 Industries",
+      "country": "United States",
+      "foundedYear": 2007,
+      "companyType": "Developer"
+    },
+    {
+      "id": 88,
+      "name": "The Coalition",
+      "country": "Canada",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 89,
+      "name": "Turn 10 Studios",
+      "country": "United States",
+      "foundedYear": 2001,
+      "companyType": "Developer"
+    },
+    {
+      "id": 90,
+      "name": "Undead Labs",
+      "country": "United States",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 91,
+      "name": "Compulsion Games",
+      "country": "Canada",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 92,
+      "name": "Ninja Theory",
+      "country": "United Kingdom",
+      "foundedYear": 2000,
+      "companyType": "Developer"
+    },
+    {
+      "id": 93,
+      "name": "Thunder Lotus Games",
+      "country": "Canada",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 94,
+      "name": "Studio MDHR",
+      "country": "Canada",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 95,
+      "name": "Klei Entertainment",
+      "country": "Canada",
+      "foundedYear": 2005,
+      "companyType": "Developer"
+    },
+    {
+      "id": 96,
+      "name": "Facepunch Studios",
+      "country": "United Kingdom",
+      "foundedYear": 2004,
+      "companyType": "Developer"
+    },
+    {
+      "id": 97,
+      "name": "Re-Logic",
+      "country": "United States",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 98,
+      "name": "Unknown Worlds Entertainment",
+      "country": "United States",
+      "foundedYear": 2001,
+      "companyType": "Developer"
+    },
+    {
+      "id": 99,
+      "name": "Sucker Punch Productions",
+      "country": "United States",
+      "foundedYear": 1997,
+      "companyType": "Developer"
+    },
+    {
+      "id": 100,
+      "name": "Housemarque",
+      "country": "Finland",
+      "foundedYear": 1995,
+      "companyType": "Developer"
+    },
+    {
+      "id": 101,
+      "name": "Starlight Publishing",
+      "country": "United States",
+      "foundedYear": 2005,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 102,
+      "name": "Rising Sun Interactive",
+      "country": "Japan",
+      "foundedYear": 1998,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 103,
+      "name": "Nordic Games Publishing",
+      "country": "Sweden",
+      "foundedYear": 2008,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 104,
+      "name": "Crimson Gate Media",
+      "country": "United Kingdom",
+      "foundedYear": 2011,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 105,
+      "name": "Digital Frontiers",
+      "country": "Canada",
+      "foundedYear": 2003,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 106,
+      "name": "Thunder Cloud Games",
+      "country": "Germany",
+      "foundedYear": 2007,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 107,
+      "name": "Apex Entertainment Group",
+      "country": "United States",
+      "foundedYear": 2012,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 108,
+      "name": "Sakura Media",
+      "country": "Japan",
+      "foundedYear": 2001,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 109,
+      "name": "Frost Bite Publishing",
+      "country": "Finland",
+      "foundedYear": 2015,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 110,
+      "name": "Golden Dragon Interactive",
+      "country": "China",
+      "foundedYear": 2010,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 111,
+      "name": "Pixel Perfect Publishing",
+      "country": "Netherlands",
+      "foundedYear": 2006,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 112,
+      "name": "Velocity Games",
+      "country": "Australia",
+      "foundedYear": 2009,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 113,
+      "name": "Infinity Loop Media",
+      "country": "South Korea",
+      "foundedYear": 2013,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 114,
+      "name": "Blue Ocean Entertainment",
+      "country": "France",
+      "foundedYear": 2004,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 115,
+      "name": "Emerald Isle Games",
+      "country": "Ireland",
+      "foundedYear": 2016,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 116,
+      "name": "Silver Moon Publishing",
+      "country": "Poland",
+      "foundedYear": 2011,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 117,
+      "name": "Quantum Realm Entertainment",
+      "country": "United States",
+      "foundedYear": 2018,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 118,
+      "name": "Midnight Sun Interactive",
+      "country": "Norway",
+      "foundedYear": 2014,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 119,
+      "name": "Horizon East Publishing",
+      "country": "Japan",
+      "foundedYear": 2002,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 120,
+      "name": "Alpine Digital",
+      "country": "Switzerland",
+      "foundedYear": 2017,
+      "companyType": "Publisher"
+    },
+    {
+      "id": 121,
+      "name": "Nebula Studios",
+      "country": "United States",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 122,
+      "name": "Titan Forge Games",
+      "country": "United States",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 123,
+      "name": "Crystal Dynamics Japan",
+      "country": "Japan",
+      "foundedYear": 2005,
+      "companyType": "Developer"
+    },
+    {
+      "id": 124,
+      "name": "Ember Heart Studios",
+      "country": "Canada",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 125,
+      "name": "Iron Gate AB",
+      "country": "Sweden",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 126,
+      "name": "Pixel Punk Games",
+      "country": "Germany",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 127,
+      "name": "Stormwind Studios",
+      "country": "United Kingdom",
+      "foundedYear": 2008,
+      "companyType": "Developer"
+    },
+    {
+      "id": 128,
+      "name": "Rising Tide Interactive",
+      "country": "Australia",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 129,
+      "name": "Jade Mountain Games",
+      "country": "China",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 130,
+      "name": "Arctic Fox Studios",
+      "country": "Finland",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 131,
+      "name": "Crimson Blade Entertainment",
+      "country": "Japan",
+      "foundedYear": 2007,
+      "companyType": "Developer"
+    },
+    {
+      "id": 132,
+      "name": "Digital Nomad Games",
+      "country": "Netherlands",
+      "foundedYear": 2017,
+      "companyType": "Developer"
+    },
+    {
+      "id": 133,
+      "name": "Neon Circuit Studios",
+      "country": "United States",
+      "foundedYear": 2019,
+      "companyType": "Developer"
+    },
+    {
+      "id": 134,
+      "name": "Midnight Owl Interactive",
+      "country": "Poland",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 135,
+      "name": "Solar Flare Games",
+      "country": "Spain",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 136,
+      "name": "Thunder Peak Studios",
+      "country": "Canada",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 137,
+      "name": "Quantum Bit Games",
+      "country": "South Korea",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 138,
+      "name": "Wildfire Interactive",
+      "country": "United States",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 139,
+      "name": "Lunar Eclipse Studios",
+      "country": "Japan",
+      "foundedYear": 2008,
+      "companyType": "Developer"
+    },
+    {
+      "id": 140,
+      "name": "Frost Giant Games",
+      "country": "United States",
+      "foundedYear": 2020,
+      "companyType": "Developer"
+    },
+    {
+      "id": 141,
+      "name": "Amber Wave Studios",
+      "country": "United Kingdom",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 142,
+      "name": "Phoenix Flame Interactive",
+      "country": "France",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 143,
+      "name": "Cobalt Sky Games",
+      "country": "Sweden",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 144,
+      "name": "Iron Clad Studios",
+      "country": "Germany",
+      "foundedYear": 2007,
+      "companyType": "Developer"
+    },
+    {
+      "id": 145,
+      "name": "Scarlet Moon Games",
+      "country": "Japan",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 146,
+      "name": "Vertex Interactive",
+      "country": "Canada",
+      "foundedYear": 2018,
+      "companyType": "Developer"
+    },
+    {
+      "id": 147,
+      "name": "Obsidian Spark Studios",
+      "country": "United States",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 148,
+      "name": "Sapphire Coast Games",
+      "country": "Australia",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 149,
+      "name": "Northern Lights Interactive",
+      "country": "Norway",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 150,
+      "name": "Golden Hour Studios",
+      "country": "Poland",
+      "foundedYear": 2017,
+      "companyType": "Developer"
+    },
+    {
+      "id": 151,
+      "name": "Parallel Worlds Games",
+      "country": "Netherlands",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 152,
+      "name": "Black Pearl Interactive",
+      "country": "United Kingdom",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 153,
+      "name": "Sunrise Digital",
+      "country": "Japan",
+      "foundedYear": 2006,
+      "companyType": "Developer"
+    },
+    {
+      "id": 154,
+      "name": "Cascade Mountains Studios",
+      "country": "United States",
+      "foundedYear": 2019,
+      "companyType": "Developer"
+    },
+    {
+      "id": 155,
+      "name": "Steel Horizon Games",
+      "country": "Germany",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 156,
+      "name": "Eternal Dream Studios",
+      "country": "South Korea",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 157,
+      "name": "Boreal Games",
+      "country": "Canada",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 158,
+      "name": "Crimson Star Interactive",
+      "country": "China",
+      "foundedYear": 2018,
+      "companyType": "Developer"
+    },
+    {
+      "id": 159,
+      "name": "Silver Stream Studios",
+      "country": "Sweden",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 160,
+      "name": "Deep Blue Games",
+      "country": "France",
+      "foundedYear": 2009,
+      "companyType": "Developer"
+    },
+    {
+      "id": 161,
+      "name": "Volcano Peak Studios",
+      "country": "Japan",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 162,
+      "name": "Twilight Zone Interactive",
+      "country": "United States",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 163,
+      "name": "Polar Bear Games",
+      "country": "Finland",
+      "foundedYear": 2017,
+      "companyType": "Developer"
+    },
+    {
+      "id": 164,
+      "name": "Thunder Strike Studios",
+      "country": "United Kingdom",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 165,
+      "name": "Crystal Lake Entertainment",
+      "country": "Canada",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 166,
+      "name": "Red Dawn Interactive",
+      "country": "Poland",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 167,
+      "name": "Mystic Valley Games",
+      "country": "Germany",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 168,
+      "name": "Ocean Depths Studios",
+      "country": "Australia",
+      "foundedYear": 2019,
+      "companyType": "Developer"
+    },
+    {
+      "id": 169,
+      "name": "Aurora Borealis Games",
+      "country": "Norway",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 170,
+      "name": "Shadow Realm Interactive",
+      "country": "Japan",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 171,
+      "name": "Prism Light Studios",
+      "country": "Netherlands",
+      "foundedYear": 2018,
+      "companyType": "Developer"
+    },
+    {
+      "id": 172,
+      "name": "Granite Peak Games",
+      "country": "United States",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 173,
+      "name": "Cosmic Dust Interactive",
+      "country": "Sweden",
+      "foundedYear": 2020,
+      "companyType": "Developer"
+    },
+    {
+      "id": 174,
+      "name": "Ember Fall Studios",
+      "country": "South Korea",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 175,
+      "name": "Verdant Hills Games",
+      "country": "Ireland",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 176,
+      "name": "Azure Sky Interactive",
+      "country": "France",
+      "foundedYear": 2017,
+      "companyType": "Developer"
+    },
+    {
+      "id": 177,
+      "name": "Midnight Sun Games",
+      "country": "Finland",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 178,
+      "name": "Stone Temple Studios",
+      "country": "United Kingdom",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 179,
+      "name": "Cyber Core Entertainment",
+      "country": "Japan",
+      "foundedYear": 2019,
+      "companyType": "Developer"
+    },
+    {
+      "id": 180,
+      "name": "Prairie Wind Games",
+      "country": "Canada",
+      "foundedYear": 2011,
+      "companyType": "Developer"
+    },
+    {
+      "id": 181,
+      "name": "Dragon Scale Studios",
+      "country": "China",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 182,
+      "name": "Firefly Interactive",
+      "country": "United States",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 183,
+      "name": "Glacier Bay Games",
+      "country": "Norway",
+      "foundedYear": 2018,
+      "companyType": "Developer"
+    },
+    {
+      "id": 184,
+      "name": "Emerald City Studios",
+      "country": "United States",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 185,
+      "name": "Copper Mountain Interactive",
+      "country": "Australia",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 186,
+      "name": "Starfall Entertainment",
+      "country": "Poland",
+      "foundedYear": 2017,
+      "companyType": "Developer"
+    },
+    {
+      "id": 187,
+      "name": "Horizon West Games",
+      "country": "Spain",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 188,
+      "name": "Neon Nexus Studios",
+      "country": "Japan",
+      "foundedYear": 2019,
+      "companyType": "Developer"
+    },
+    {
+      "id": 189,
+      "name": "Cloud Nine Interactive",
+      "country": "Sweden",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 190,
+      "name": "Black Forest Games",
+      "country": "Germany",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 191,
+      "name": "Silent Hill Studios",
+      "country": "Japan",
+      "foundedYear": 2010,
+      "companyType": "Developer"
+    },
+    {
+      "id": 192,
+      "name": "Maple Leaf Interactive",
+      "country": "Canada",
+      "foundedYear": 2018,
+      "companyType": "Developer"
+    },
+    {
+      "id": 193,
+      "name": "Desert Rose Games",
+      "country": "United States",
+      "foundedYear": 2013,
+      "companyType": "Developer"
+    },
+    {
+      "id": 194,
+      "name": "Northern Star Studios",
+      "country": "Finland",
+      "foundedYear": 2015,
+      "companyType": "Developer"
+    },
+    {
+      "id": 195,
+      "name": "Coral Reef Interactive",
+      "country": "Australia",
+      "foundedYear": 2017,
+      "companyType": "Developer"
+    },
+    {
+      "id": 196,
+      "name": "Violet Storm Games",
+      "country": "South Korea",
+      "foundedYear": 2012,
+      "companyType": "Developer"
+    },
+    {
+      "id": 197,
+      "name": "Ancient Oak Studios",
+      "country": "United Kingdom",
+      "foundedYear": 2019,
+      "companyType": "Developer"
+    },
+    {
+      "id": 198,
+      "name": "Golden Gate Interactive",
+      "country": "United States",
+      "foundedYear": 2014,
+      "companyType": "Developer"
+    },
+    {
+      "id": 199,
+      "name": "Mountain Peak Games",
+      "country": "Switzerland",
+      "foundedYear": 2016,
+      "companyType": "Developer"
+    },
+    {
+      "id": 200,
+      "name": "Blazing Comet Studios",
+      "country": "Japan",
+      "foundedYear": 2020,
+      "companyType": "Developer"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game API - GraphQL Sandbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f1419;
+    }
+    #embeddableExplorer {
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="embeddableExplorer"></div>
+
+  <script src="https://embeddable-sandbox.cdn.apollographql.com/_latest/embeddable-sandbox.umd.production.min.js"></script>
+  <script>
+    new window.EmbeddedSandbox({
+      target: '#embeddableExplorer',
+      // Use relative URL to work with any port
+      initialEndpoint: `${window.location.origin}/graphql`,
+      includeCookies: true,
+      // Enhanced configuration for better syntax highlighting
+      theme: 'dark',
+      handleRequest: (endpointUrl, options) => {
+        return fetch(endpointUrl, {
+          ...options,
+          credentials: 'include',
+        });
+      },
+      initialState: {
+        document: `# 🎮 Welcome to the Game API GraphQL API!
+# Here are some example queries to get you started with proper syntax highlighting:
+
+# 📚 Get all games with their genre and developer information
+query GetGames {
+  games(limit: 5) {
+    games {
+      id
+      title
+      description
+      platform
+      releaseDate
+      genre {
+        genreName
+      }
+      developer {
+        name
+        companyType
+      }
+      publisher {
+        name
+        companyType
+      }
+      images {
+        id
+        image_url
+        image_type
+      }
+      averageRating
+      totalReviews
+    }
+    total
+    page
+    totalPages
+  }
+}
+
+# 🎯 Get a specific game with its reviews
+query GetGameWithReviews {
+  game(id: "1") {
+    title
+    description
+    platform
+    releaseDate
+    images {
+      id
+      image_url
+      image_type
+    }
+    reviews {
+      id
+      ratingScore
+      reviewText
+      user {
+        username
+      }
+    }
+    averageRating
+    totalReviews
+  }
+}
+
+# 🏷️ Get all genres with game counts
+query GetGenres {
+  genres {
+    id
+    genreName
+    games {
+      id
+      title
+      platform
+      releaseDate
+    }
+    createdAt
+    updatedAt
+  }
+}
+
+# 🏢 Get all companies by type
+query GetCompanies {
+  companies(type: Developer) {
+    id
+    name
+    companyType
+    country
+    developedGames {
+      title
+      releaseDate
+    }
+  }
+}
+
+# 🔍 Search games by title
+query SearchGames {
+  games(search: "Adventure", limit: 3) {
+    games {
+      id
+      title
+      description
+      genre {
+        genreName
+      }
+      images {
+        id
+        image_url
+        image_type
+      }
+    }
+    total
+  }
+}
+
+# 🖼️ Get games with their images
+query GetGamesWithImages {
+  games(limit: 10) {
+    games {
+      id
+      title
+      platform
+      releaseDate
+      images {
+        id
+        image_url
+        image_type
+      }
+    }
+    total
+  }
+}
+
+# 🕐 Get 100 most recent game IDs by release date
+query GetRecentGameIds {
+  recentGameIds
+}
+
+# 📅 Get game IDs by release date range
+# Note: Both 'from' and 'to' parameters are required (format: YYYY-MM-DD)
+query GetGameIdsByDateRange {
+  gameIdsByDateRange(from: "2020-01-01", to: "2023-12-31")
+}`,
+        variables: {},
+        headers: {}
+      }
+    });
+  </script>
+</body>
+</html>

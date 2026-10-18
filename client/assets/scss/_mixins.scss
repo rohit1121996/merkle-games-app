@@ -1,0 +1,26 @@
+@use "variables" as *;
+
+@mixin responsive-grid($min-width: 250px, $gap: $spacing-md) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($min-width, 1fr));
+  gap: $gap;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin focus-ring {
+  &:focus-visible {
+    outline: 2px solid $primary;
+    outline-offset: 2px;
+  }
+}
+
+@mixin transition($properties...) {
+  transition-property: $properties;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}

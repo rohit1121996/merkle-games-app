@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    container_name: gameapi-postgres-test
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=gameapi_pass
+      - POSTGRES_DB=gameapi
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_test_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gameapi-app-test
+    environment:
+      - NODE_ENV=test
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=gameapi
+      - DB_USER=postgres
+      - DB_PASSWORD=gameapi_pass
+      - PORT=8000
+      - JWT_SECRET=test-secret-key
+      - API_VERSION=v1
+      - API_PREFIX=/api
+      - GRAPHQL_PATH=/graphql
+      - GRAPHQL_PLAYGROUND=true
+    ports:
+      - "8001:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./src:/app/src
+      - ./migrations:/app/migrations
+      - ./seeders:/app/seeders
+      - ./tests:/app/tests
+    command: sh -c "npm run test:sanity && npm test"
+    profiles:
+      - test
+
+volumes:
+  postgres_test_data:
