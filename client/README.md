@@ -104,11 +104,12 @@ The terminal shows statement, branch, function, and line coverage, and the run f
 
 ## Implementation notes
 
-- The genre selector uses a genre's numeric ID when requesting filtered games; the displayed genre name is only the label.
-- Changing the genre starts again from page 1. Pagination and retry requests retain the selected genre.
-- Sorting currently applies to the games returned for the current page; it does not re-sort all games across every page.
-- The current page size is 12.
-- The client consumes the REST API through Nuxt server routes. It does not use GraphQL.
+- The genre selector sends the selected genre's numeric ID; the visible name is its label.
+- The client consumes REST through Nuxt server routes and does not use GraphQL.
+- Initial page data is fetched during SSR and reused for hydration.
+- A fresh server request builds a new random featured selection. During client-side navigation, successful results are reused for ten minutes by query key.
+- Genre and detail API routes use Nitro's ten-minute cache.
+- Date-only release values are formatted in UTC to prevent the calendar day from shifting with the viewer's time zone.
 
 # Reference Links
 
