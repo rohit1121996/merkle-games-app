@@ -144,3 +144,8 @@ flowchart LR
     pages --> sorting[Sort featured games]
     sorting --> components
 ```
+
+# Repository
+
+`https://github.com/rohit1121996/merkle-games-app
+`
