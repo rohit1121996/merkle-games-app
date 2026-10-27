@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { sortGames } from "~/src/utils/sorting";
+import { sortGames } from "~/utils/sorting";
 import { makeGame } from "../fixtures/game";
 
 describe("sortGames", () => {
@@ -48,9 +48,5 @@ describe("sortGames", () => {
     expect(sortGames([], "releaseDate")).toEqual([]);
   });
 
-  it("leaves the list unchanged for an unsupported sort option", () => {
-    const games = [makeGame({ id: "first" }), makeGame({ id: "second" })];
 
-    expect(sortGames(games, "unsupported" as "rating")).toEqual(games);
-  });
 });

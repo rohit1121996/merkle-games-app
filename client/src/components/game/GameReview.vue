@@ -17,9 +17,9 @@
 </template>
 
 <script setup lang="ts">
-import type { GameReview } from "~/src/types/game";
-import RatingStars from "~/src/components/game/RatingStars.vue";
-import { MAX_GAME_RATING } from "~/src/utils/rating";
+import type { GameReview } from "~/types/game";
+import RatingStars from "~/components/game/RatingStars.vue";
+import { MAX_GAME_RATING } from "~/utils/rating";
 
 defineProps<{
   review: GameReview;

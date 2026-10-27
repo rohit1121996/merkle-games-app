@@ -4,7 +4,7 @@ import {
   readTimedCache,
   writeTimedCache,
   type TimedCache,
-} from "~/src/utils/timedCache";
+} from "~/utils/timedCache";
 
 describe("timed cache", () => {
   it("returns undefined when the requested key is not cached", () => {

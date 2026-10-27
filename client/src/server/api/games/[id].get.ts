@@ -1,5 +1,5 @@
-import type { Game } from "~/src/types/game";
-import { getErrorStatusCode } from "~/src/utils/error";
+import type { Game } from "~/types/game";
+import { getErrorStatusCode } from "~/utils/error";
 import {
   formatGameItem,
   type ApiResponse,

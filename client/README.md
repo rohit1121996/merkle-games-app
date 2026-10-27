@@ -50,9 +50,7 @@ The browser-facing API routes live in `src/server/api/`. They call the backend A
 - `GET /api/genres` loads the list of genre IDs and names for the filter.
 - `GET /api/games/:id` loads and maps the details for one game.
 
-The backend's list response contains game records and pagination metadata. The client maps that response into its own `Game` and `PaginatedGamesResponse` types. Relative image paths are resolved against the backend origin so the images can be displayed by the client.
-
-The `useGames` composable contains the client-side request state and methods used by the pages. It tracks games, pagination, loading and error states, and genre options. Game sorting is handled by a utility that sorts a copy of the current games array rather than mutating it.
+The games route applies the genre and search filters, selects up to 15 games released from 2015 through 2017, and adds rating statistics. The genres route provides filter options, while the detail route returns one mapped game with its reviews. Nuxt fetches initial page data during SSR and reuses it during hydration.
 
 ## Project structure
 
@@ -60,9 +58,9 @@ The `useGames` composable contains the client-side request state and methods use
 
 
 client/
-├── assets/
-│   └── scss/                 # Global styles, icons, and other static assets
 ├── src/
+│   ├── assets/
+│   │   └── scss/
 │   ├── app.vue               # Main application entry point
 │   ├── components/
 │   │   ├── common/           # Reusable components such as Header, Error, and Loading
@@ -88,19 +86,15 @@ client/
 
 ## Tests
 
-The client uses Vitest for unit tests. The suite covers date formatting, game sorting, the games composable, backend-to-client data mapping, and the Nuxt API route handlers.
+Vitest covers utility behavior, composables, API mapping, and server routes. Playwright covers SSR output, browsing flows, responsive layout, and key error states.
 
-Run the suite from `client/`:
+Run the checks from `client/`:
 
 ```bash
 npm run test
+npm run test:e2e
+npm run typecheck
 ```
-
-```bash
-npm run test:coverage
-```
-
-The terminal shows statement, branch, function, and line coverage, and the run fails if any metric falls below 99%. Open `coverage/index.html` to browse file-level and line-level details. The report includes TypeScript modules under `src/`; Vue single-file component templates are not instrumented by this V8/Vitest setup. It does not include the Playwright suite. Generated coverage files are ignored by Git.
 
 ## Implementation notes
 

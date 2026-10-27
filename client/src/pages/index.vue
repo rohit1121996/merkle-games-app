@@ -86,45 +86,31 @@
 
 <script setup lang="ts">
 import { ref, computed } from "vue";
-import { useGames } from "~/src/composables/useGames";
-import { sortGames, type SortOption } from "~/src/utils/sorting";
-import GameGrid from "~/src/components/game/GameGrid.vue";
-import GameCard from "~/src/components/game/GameCard.vue";
-import LoadingState from "~/src/components/common/LoadingState.vue";
-import ErrorState from "~/src/components/common/ErrorState.vue";
-import EmptyState from "~/src/components/common/EmptyState.vue";
+import { useGames } from "~/composables/useGames";
+import { sortGames, type SortOption } from "~/utils/sorting";
+import GameGrid from "~/components/game/GameGrid.vue";
+import GameCard from "~/components/game/GameCard.vue";
+import LoadingState from "~/components/common/LoadingState.vue";
+import ErrorState from "~/components/common/ErrorState.vue";
+import EmptyState from "~/components/common/EmptyState.vue";
 
 const { fetchGames, fetchGenres } = useGames();
 const sortBy = ref<SortOption>("rating");
-const query = ref({
-  genre: "" as number | "",
-  search: "",
-});
-const selectedGenre = computed({
-  get: () => query.value.genre,
-  set: (genre: number | "") => {
-    query.value = { ...query.value, genre };
-  },
-});
+const selectedGenre = ref<number | "">("");
 const searchInput = ref("");
-const appliedSearch = computed({
-  get: () => query.value.search,
-  set: (search: string) => {
-    query.value = { ...query.value, search };
-  },
-});
+const appliedSearch = ref("");
 
 const gamesKey = computed(() =>
   JSON.stringify([
     "games",
-    query.value.genre === "" ? null : query.value.genre,
-    query.value.search,
+    selectedGenre.value === "" ? null : selectedGenre.value,
+    appliedSearch.value,
   ]),
 );
 const gamesRequest = useTimedAsyncData("games", gamesKey, (signal) =>
   fetchGames(
-    query.value.genre === "" ? undefined : query.value.genre,
-    query.value.search,
+    selectedGenre.value === "" ? undefined : selectedGenre.value,
+    appliedSearch.value,
     signal,
   ),
 );

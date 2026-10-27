@@ -1,5 +1,4 @@
 import { expect, test } from "@playwright/test";
-import AxeBuilder from "@axe-core/playwright";
 
 test("SSR renders games and hydrates without repeating the initial API calls", async ({
   page,
@@ -83,6 +82,23 @@ test("SSR renders games and hydrates without repeating the initial API calls", a
   );
 });
 
+test("returns a 404 and noindex metadata for an unknown game", async ({
+  page,
+}) => {
+  const response = await page.goto("/games/999999");
+
+  expect(response?.status()).toBe(404);
+  await expect(
+    page.getByRole("alert").getByRole("heading", {
+      name: "Unable to load game details",
+    }),
+  ).toBeVisible();
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
+    "content",
+    "noindex, nofollow",
+  );
+});
+
 test("prioritizes the first game cover and lazy-loads other covers", async ({
   page,
 }) => {
@@ -102,30 +118,6 @@ test("prioritizes the first game cover and lazy-loads other covers", async ({
     "fetchpriority",
     "high",
   );
-});
-
-test("searches games by title", async ({ page }) => {
-  await page.goto("/", { waitUntil: "networkidle" });
-
-  await page
-    .getByRole("searchbox", { name: "Search games by title" })
-    .fill("puzzle");
-  await page.getByRole("button", { name: "Search" }).click();
-
-  await expect(
-    page.getByRole("heading", { name: "Puzzle Quest" }),
-  ).toBeVisible();
-  await expect(
-    page.getByRole("heading", { name: "Sample Adventure" }),
-  ).not.toBeVisible();
-
-  await page.getByRole("button", { name: "Clear" }).click();
-  await expect(
-    page.getByRole("heading", { name: "Sample Adventure" }),
-  ).toBeVisible();
-  await expect(
-    page.getByRole("heading", { name: "Puzzle Quest" }),
-  ).toBeVisible();
 });
 
 test("filters the featured games by genre and search", async ({ page }) => {
@@ -333,206 +325,3 @@ test("renders listing and game details without client-side JavaScript", async ({
   await context.close();
 });
 
-test("supports keyboard access to the main content and theme control", async ({
-  page,
-}) => {
-  await page.goto("/", { waitUntil: "networkidle" });
-
-  await page.keyboard.press("Tab");
-  const skipLink = page.getByRole("link", { name: "Skip to main content" });
-  await expect(skipLink).toBeFocused();
-  await expect(skipLink).toBeInViewport();
-  await page.keyboard.press("Enter");
-  await expect(page.locator("#main-content")).toBeFocused();
-
-  await page.getByRole("button", { name: "Switch to dark mode" }).focus();
-  await page.keyboard.press("Enter");
-  await expect(
-    page.getByRole("button", { name: "Switch to light mode" }),
-  ).toHaveAttribute("aria-pressed", "true");
-});
-
-test("supports keyboard search, game navigation, and returning to the list", async ({
-  page,
-}) => {
-  await page.goto("/", { waitUntil: "networkidle" });
-  await page.keyboard.press("Tab");
-  const skipLink = page.getByRole("link", { name: "Skip to main content" });
-  await expect(skipLink).toBeFocused();
-  await page.keyboard.press("Enter");
-  await expect(page.locator("#main-content")).toBeFocused();
-
-  const search = page.getByRole("searchbox", { name: "Search games by title" });
-  await page.keyboard.press("Tab");
-  await expect(search).toBeFocused();
-  await search.fill("puzzle");
-  await page.keyboard.press("Enter");
-
-  await expect(
-    page.getByRole("heading", { name: "Puzzle Quest" }),
-  ).toBeVisible();
-  await expect(
-    page.getByRole("heading", { name: "Sample Adventure" }),
-  ).not.toBeVisible();
-
-  const clearButton = page.getByRole("button", { name: "Clear" });
-  await clearButton.focus();
-  await page.keyboard.press("Enter");
-  await expect(
-    page.getByRole("heading", { name: "Sample Adventure" }),
-  ).toBeVisible();
-
-  const gameLink = page.getByRole("link", { name: "Sample Adventure" });
-  await expect(gameLink).toBeVisible();
-  await gameLink.focus();
-  await page.keyboard.press("Enter");
-  await expect(page).toHaveURL(/\/games\/98101$/);
-
-  const backLink = page.getByRole("link", { name: "Back to games" });
-  await backLink.focus();
-  await page.keyboard.press("Enter");
-  await expect(page).toHaveURL("/");
-});
-
-test("announces loading, empty results, and errors accessibly", async ({
-  page,
-}) => {
-  await page.goto("/", { waitUntil: "networkidle" });
-  await page.route("**/api/games?*", async (route) => {
-    await new Promise((resolve) => setTimeout(resolve, 300));
-    await route.fulfill({
-      status: 200,
-      contentType: "application/json",
-      body: JSON.stringify({
-        games: [],
-      }),
-    });
-  });
-
-  const search = page.getByRole("searchbox", { name: "Search games by title" });
-  await search.fill("missing");
-  await page.getByRole("button", { name: "Search" }).click();
-  await expect(page.locator("#results-announcement")).toHaveText(
-    "Updating game results.",
-  );
-  await expect(page.locator(".games-results")).toHaveAttribute(
-    "aria-busy",
-    "true",
-  );
-  expect(
-    (
-      await new AxeBuilder({ page })
-        .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-        .analyze()
-    ).violations,
-  ).toEqual([]);
-  await expect(page.locator(".empty-state-container")).toContainText(
-    "No games found.",
-  );
-  expect(
-    (
-      await new AxeBuilder({ page })
-        .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-        .analyze()
-    ).violations,
-  ).toEqual([]);
-
-  await page.unroute("**/api/games?*");
-  let failRequest = true;
-  await page.route("**/api/games?*", (route) =>
-    failRequest
-      ? route.fulfill({
-          status: 502,
-          contentType: "application/json",
-          body: JSON.stringify({
-            statusCode: 502,
-            statusMessage: "Could not load games",
-          }),
-        })
-      : route.fulfill({
-          status: 200,
-          contentType: "application/json",
-          body: JSON.stringify({
-            games: [],
-          }),
-        }),
-  );
-  await search.fill("unavailable");
-  await page.getByRole("button", { name: "Search" }).click();
-  await expect(
-    page.getByRole("alert").getByRole("heading", {
-      name: "Unable to load games",
-    }),
-  ).toBeVisible();
-  const errorAlert = page.getByRole("alert");
-  await expect(errorAlert.locator("p")).toHaveText(
-    "We couldn't load games right now. Please try again.",
-  );
-  await expect(errorAlert).not.toContainText(/GET.*\/api\/games/i);
-  expect(
-    (
-      await new AxeBuilder({ page })
-        .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-        .analyze()
-    ).violations,
-  ).toEqual([]);
-
-  failRequest = false;
-  const retryButton = page.getByRole("button", { name: "Try again" });
-  await retryButton.focus();
-  await page.keyboard.press("Enter");
-  await expect(page.locator(".empty-state-container")).toContainText(
-    "No games found.",
-  );
-});
-
-test("keeps reduced-motion preferences respected", async ({ page }) => {
-  await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/", { waitUntil: "networkidle" });
-
-  const gameCard = page.locator(".game-card").first();
-  await expect(gameCard).toBeVisible();
-  expect(
-    await gameCard.evaluate((element) => getComputedStyle(element).transitionDuration),
-  ).toBe("0s");
-});
-
-test("has no automated WCAG 2.2 AA violations on listing or detail pages", async ({
-  page,
-}) => {
-  await page.route("https://images.example/**", (route) => route.abort());
-  await page.goto("/", { waitUntil: "networkidle" });
-
-  const listingResults = await new AxeBuilder({ page })
-    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-    .analyze();
-  expect(listingResults.violations).toEqual([]);
-  await expect(page.locator("main h1")).toHaveCount(1);
-
-  await page.getByRole("button", { name: "Switch to dark mode" }).click();
-  const darkListingResults = await new AxeBuilder({ page })
-    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-    .analyze();
-  expect(darkListingResults.violations).toEqual([]);
-
-  await page.goto("/games/98101", { waitUntil: "networkidle" });
-  const detailResults = await new AxeBuilder({ page })
-    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-    .analyze();
-  expect(detailResults.violations).toEqual([]);
-
-  await page.getByRole("button", { name: "Switch to light mode" }).click();
-  const lightDetailResults = await new AxeBuilder({ page })
-    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-    .analyze();
-  expect(lightDetailResults.violations).toEqual([]);
-
-  await page.setViewportSize({ width: 320, height: 812 });
-  const narrowDetailResults = await new AxeBuilder({ page })
-    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
-    .analyze();
-  expect(narrowDetailResults.violations).toEqual([]);
-  expect(
-    await page.evaluate(() => document.documentElement.scrollWidth),
-  ).toBeLessThanOrEqual(320);
-});

@@ -1,5 +1,5 @@
-import type { Game, GamesResponse } from "~/src/types/game";
-import { getErrorStatusCode } from "~/src/utils/error";
+import type { Game, GamesResponse } from "~/types/game";
+import { getErrorStatusCode } from "~/utils/error";
 import {
   formatGameItem,
   type ApiResponse,
@@ -47,10 +47,10 @@ export default defineEventHandler(async (event): Promise<GamesResponse> => {
     const shuffledGames = [...eligibleGames];
     for (let index = shuffledGames.length - 1; index > 0; index -= 1) {
       const swapIndex = Math.floor(Math.random() * (index + 1));
-      [shuffledGames[index], shuffledGames[swapIndex]] = [
-        shuffledGames[swapIndex],
-        shuffledGames[index],
-      ];
+      const currentGame = shuffledGames[index]!;
+      const swapGame = shuffledGames[swapIndex]!;
+      shuffledGames[index] = swapGame;
+      shuffledGames[swapIndex] = currentGame;
     }
 
     const selectedGames: Game[] = await Promise.all(

@@ -1,4 +1,4 @@
-import type { Game } from "~/src/types/game";
+import type { Game } from "~/types/game";
 
 export const makeGame = (overrides: Partial<Game> = {}): Game => ({
   id: "game-1",

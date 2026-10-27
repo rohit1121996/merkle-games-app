@@ -23,11 +23,11 @@
 </template>
 
 <script setup lang="ts">
-import type { Game } from "~/src/types/game";
-import { formatDate } from "~/src/utils/date";
-import GameImage from "~/src/components/common/GameImage.vue";
-import GameRating from "~/src/components/game/GameRating.vue";
-import GameGenres from "~/src/components/game/GameGenres.vue";
+import type { Game } from "~/types/game";
+import { formatDate } from "~/utils/date";
+import GameImage from "~/components/common/GameImage.vue";
+import GameRating from "~/components/game/GameRating.vue";
+import GameGenres from "~/components/game/GameGenres.vue";
 
 withDefaults(
   defineProps<{

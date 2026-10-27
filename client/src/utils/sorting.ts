@@ -1,4 +1,4 @@
-import type { Game } from "~/src/types/game";
+import type { Game } from "~/types/game";
 
 export type SortOption = "rating" | "releaseDate";
 

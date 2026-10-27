@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getRatingStarFill, MAX_GAME_RATING } from "~/src/utils/rating";
+import { getRatingStarFill, MAX_GAME_RATING } from "~/utils/rating";
 
 describe("getRatingStarFill", () => {
   it("uses one star for each point on the ten-point scale", () => {

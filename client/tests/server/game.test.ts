@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { formatGameItem } from "~/src/server/utils/game";
+import { formatGameItem } from "~/server/utils/game";
 
 describe("formatGameItem", () => {
   it("maps backend game fields into the client game shape", () => {

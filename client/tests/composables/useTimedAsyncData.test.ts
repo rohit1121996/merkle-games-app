@@ -1,8 +1,8 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { computed, ref } from "vue";
 import type { MaybeRefOrGetter } from "vue";
-import type { TimedCache } from "~/src/utils/timedCache";
-import { CLIENT_DATA_CACHE_TTL_MS } from "~/src/utils/timedCache";
+import type { TimedCache } from "~/utils/timedCache";
+import { CLIENT_DATA_CACHE_TTL_MS } from "~/utils/timedCache";
 
 type AsyncDataHandler<T> = (
   nuxtApp: unknown,
@@ -49,7 +49,7 @@ describe("useTimedAsyncData", () => {
     );
 
     const { useTimedAsyncData } =
-      await import("~/src/composables/useTimedAsyncData");
+      await import("~/composables/useTimedAsyncData");
     const activeKey = ref("games:page-1");
     const request = useTimedAsyncData("games", computed(() => activeKey.value), async (signal) => {
       expect(signal).toBe(abortController.signal);

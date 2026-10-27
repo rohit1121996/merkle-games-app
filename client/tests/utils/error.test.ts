@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getErrorStatusCode } from "~/src/utils/error";
+import { getErrorStatusCode } from "~/utils/error";
 
 describe("getErrorStatusCode", () => {
   it("returns numeric status codes from error objects", () => {

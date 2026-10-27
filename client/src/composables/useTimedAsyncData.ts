@@ -3,7 +3,7 @@ import {
   readTimedCache,
   writeTimedCache,
   type TimedCache,
-} from "~/src/utils/timedCache";
+} from "~/utils/timedCache";
 
 export const useTimedAsyncData = <T>(
   cacheName: string,

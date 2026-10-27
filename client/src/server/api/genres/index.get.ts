@@ -1,5 +1,5 @@
-import type { GenreOption } from "~/src/types/game";
-import { getErrorStatusCode } from "~/src/utils/error";
+import type { GenreOption } from "~/types/game";
+import { getErrorStatusCode } from "~/utils/error";
 import type { ApiResponse } from "../../utils/game";
 
 export default defineCachedEventHandler(async (event): Promise<GenreOption[]> => {

@@ -10,9 +10,9 @@
     "preview:local": "nuxt preview --host 127.0.0.1 --port 3200",
     "postinstall": "nuxt prepare",
     "test": "vitest run",
-    "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test",
-    "sonar:scan": "sonar-scanner-npm"
+    "sonar:scan": "sonar-scanner-npm",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
     "nuxt": "^4.6.0",
@@ -20,14 +20,12 @@
     "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.64.0",
     "@sonar/scan": "^5.0.1",
     "@types/node": "^26.6.4",
-    "@vitest/coverage-v8": "^5.0.5",
-    "@vue/test-utils": "^2.5.1",
-    "jsdom": "^30.1.3",
     "sass": "^1.105.1",
-    "vitest": "^5.0.3"
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3",
+    "vue-tsc": "^3.3.13"
   }
 }

@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { getRatingStarFill, MAX_GAME_RATING } from "~/src/utils/rating";
+import { getRatingStarFill, MAX_GAME_RATING } from "~/utils/rating";
 
 const props = defineProps<{
   rating: number;

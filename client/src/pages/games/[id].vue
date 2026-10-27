@@ -64,16 +64,16 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { useGames } from "~/src/composables/useGames";
-import { useTimedAsyncData } from "~/src/composables/useTimedAsyncData";
-import { formatDate } from "~/src/utils/date";
-import LoadingState from "~/src/components/common/LoadingState.vue";
-import ErrorState from "~/src/components/common/ErrorState.vue";
-import EmptyState from "~/src/components/common/EmptyState.vue";
-import GameImage from "~/src/components/common/GameImage.vue";
-import GameRating from "~/src/components/game/GameRating.vue";
-import GameGenres from "~/src/components/game/GameGenres.vue";
-import GameReview from "~/src/components/game/GameReview.vue";
+import { useGames } from "~/composables/useGames";
+import { useTimedAsyncData } from "~/composables/useTimedAsyncData";
+import { formatDate } from "~/utils/date";
+import LoadingState from "~/components/common/LoadingState.vue";
+import ErrorState from "~/components/common/ErrorState.vue";
+import EmptyState from "~/components/common/EmptyState.vue";
+import GameImage from "~/components/common/GameImage.vue";
+import GameRating from "~/components/game/GameRating.vue";
+import GameGenres from "~/components/game/GameGenres.vue";
+import GameReview from "~/components/game/GameReview.vue";
 
 const route = useRoute();
 const { fetchGameDetails } = useGames();
@@ -90,6 +90,13 @@ const {
 } = await useTimedAsyncData("game-details", gameKey, (signal) =>
   fetchGameDetails(gameId.value, signal),
 );
+
+if (import.meta.server && error.value) {
+  setResponseStatus(
+    error.value.statusCode ?? 500,
+    error.value.statusMessage,
+  );
+}
 
 const pageTitle = computed(() =>
   game.value
@@ -113,6 +120,9 @@ useSeoMeta({
   ogDescription: pageDescription,
   ogType: "article",
   twitterCard: "summary",
+  robots: computed(() =>
+    error.value?.statusCode === 404 ? "noindex, nofollow" : undefined,
+  ),
 });
 </script>
 

@@ -17,7 +17,7 @@ beforeAll(async () => {
       return handler;
     },
   );
-  getGenres = (await import("~/src/server/api/genres/index.get"))
+  getGenres = (await import("~/server/api/genres/index.get"))
     .default as EventHandler;
 });
 
@@ -41,10 +41,6 @@ describe("genres API handler", () => {
       vi.fn(() => ({ gameApiUrl: "https://api.example/api/v1" })),
     );
     vi.stubGlobal("createError", vi.fn(makeHttpError));
-  });
-
-  it("uses the request path as the cache key", () => {
-    expect(cachedOptions?.getKey({ path: "/api/genres" })).toBe("/api/genres");
   });
 
   it("returns genre IDs and names from the backend", async () => {

@@ -1,4 +1,4 @@
-import type { GenreOption, GamesResponse, Game } from "~/src/types/game";
+import type { GenreOption, GamesResponse, Game } from "~/types/game";
 
 export const useGames = () => {
   const fetchGames = (

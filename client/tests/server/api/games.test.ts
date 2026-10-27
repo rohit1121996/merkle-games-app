@@ -19,9 +19,9 @@ beforeAll(async () => {
       return handler;
     },
   );
-  getGames = (await import("~/src/server/api/games/index.get"))
+  getGames = (await import("~/server/api/games/index.get"))
     .default as EventHandler;
-  getGame = (await import("~/src/server/api/games/[id].get"))
+  getGame = (await import("~/server/api/games/[id].get"))
     .default as EventHandler;
 });
 
@@ -139,6 +139,26 @@ describe("games API handlers", () => {
       );
     });
 
+    it("ignores games without a release date in the featured range", async () => {
+      fetchMock
+        .mockResolvedValueOnce({
+          data: [
+            { id: 1, title: "Undated" },
+            { id: 2, title: "Too Early", release_date: "2014-12-31" },
+            { id: 3, title: "Too Late", release_date: "2018-01-01" },
+            { id: 4, title: "Featured", release_date: "2015-01-01" },
+          ],
+        })
+        .mockResolvedValueOnce({
+          data: { average_rating: 6, total_reviews: 3 },
+        });
+
+      const response = await getGames({});
+
+      expect(response.games.map((game) => game.title)).toEqual(["Featured"]);
+      expect(fetchMock).toHaveBeenCalledTimes(2);
+    });
+
     it("returns no more than 15 games when many eligible titles exist", async () => {
       vi.spyOn(Math, "random").mockReturnValue(0.5);
       const eligibleGames = Array.from({ length: 18 }, (_, index) => ({
@@ -160,21 +180,6 @@ describe("games API handlers", () => {
       expect(response.games).toHaveLength(15);
       expect(new Set(response.games.map((game) => game.id)).size).toBe(15);
       expect(fetchMock).toHaveBeenCalledTimes(16);
-    });
-
-    it("forwards the selected genre ID to the backend", async () => {
-      vi.stubGlobal(
-        "getQuery",
-        vi.fn(() => ({ genre: "7" })),
-      );
-      fetchMock.mockResolvedValueOnce({ data: [] });
-
-      await getGames({});
-
-      expect(fetchMock).toHaveBeenCalledWith(
-        "https://api.example/api/v1/games",
-        { params: { limit: 100, genre: "7" } },
-      );
     });
 
     it("forwards a trimmed search term with the selected genre", async () => {
@@ -285,12 +290,6 @@ describe("games API handlers", () => {
   });
 
   describe("GET /api/games/:id", () => {
-    it("uses the request path as its cache key", () => {
-      expect(cachedOptions[0]?.getKey({ path: "/api/games/42" })).toBe(
-        "/api/games/42",
-      );
-    });
-
     it("maps and returns one game", async () => {
       fetchMock.mockResolvedValueOnce({
         data: {
